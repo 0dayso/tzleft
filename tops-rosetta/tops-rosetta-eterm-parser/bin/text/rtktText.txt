@@ -1,0 +1,18 @@
+    AMERICAN AIRLINE                                    08307736                
+   FEE FOR REF/CHANGE                      BJSCHI       BU YE CHENG             
+   NONREF/SVCCHGPLUSFAREDIF/      12MAR16  HY5711/1E    SHA255                  
+   XU/YANLI MS                                          DEV-25                  
+                                                            43756  9TN R        
+     BEIJING       PEKAA   186 H 14MAR 1010  OKHLX0C3D1       14MAR14MAR2PC     
+   X CHICAGO       ORDAA  3410 H 14MAR 1640  OKHLX0C3D1       14MAR14MAR2PC     
+     TOLEDO        TOLAA  3562 H 19MAR 1054  OKHLX0C3D1       19MAR19MAR2PC     
+   X CHICAGO       ORDAA  1407 H 19MAR 1500  OKHLX0C3D1       19MAR19MAR2PC     
+     MIAMI         MIA                                                          
+   CNY 7380.00A14MAR16BJS AA X/CHI AA TOL AA X/CHI AA MIA M BJSTOL906.76/-O                                                                          
+RL AA NYC117.21AA CHI125.58NUC1149.55END ROE6.418450 XT 116.     
+   CN    90.00 00US26.00XA46.00XY36.00YC1025.00YR                               
+   AY   148.00                                                                  
+   XT     1249CASH(CNY)                                                         
+   CNY 8867.00                                                                  
+                  1789661250                CNY7380.00           000 1487.00    
+                                                                                

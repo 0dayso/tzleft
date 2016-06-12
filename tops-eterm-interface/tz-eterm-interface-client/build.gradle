@@ -1,0 +1,11 @@
+group = 'com.travelzen'
+version = "${versions.tz_eterm}"
+jar {
+    baseName = "tz-eterm-interface-client"
+}
+
+dependencies {
+    compile project(':tz-eterm-interface-common')
+    
+    compile libraries.tops_rosetta_eterm_common
+}

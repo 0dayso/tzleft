@@ -1,0 +1,207 @@
+错误代码&提示	错误原因	解决办法	
+00001：无法登陆，请检查用户名和口令	ETERM已连接到深圳凯亚的服务器，但用户名或者口令输入错误	检查用户名和口令输入的正确性，重新输入	
+00007：无法登陆：认证错误，服务电话：0755-83432566	账号被禁用，无法使用	代理人用户是否欠费停机？请联系凯亚财务确认缴费情况或凯亚客服83432566查询具体原因	
+10001：登陆失败：请检查用户名和口令，或认证类型	ETERM已连接到航信服务器，但用户名或者口令错，或者是否需要勾选“安全传输”	检查用户名和口令输入的正确性，重新输入，或者确认是否需要勾选“安全传输”项	
+102 ERROR	无效的航班的到达时间，或者是FC项中输入的有效期不对，	检查航班的时间。一般主要是FC项中有效期的问题，删除或者不输入有效期后再尝试重新出票	
+104 ERROR	除外航电子客票首航段不能为国内段	检查PNR中的航段是否符合要求	
+118 ERROR	服务器响应超时	系统无法处理，就是系统发送的报文，对方系统收不到，或者拒收，可能是PNR中某些项格式错误致使对方系统拒收
+如：1.FN中未含任何税，TEXEMPT免税标示也没有，系统拒绝。2.FC或EI超长或者包含非法字符。3.系统连接中断，请稍后重试。	
+119 ERROR	PNR中存在非法的SSR TKNE项	检查PNR中是否有无效或者多余的SSR TKNE项，删除或者重新输入一遍再重试出票	
+120 ERROR	没有找到匹配的航段	比较B/C两系统中的PNR航段项，看是否匹配，如不匹配则联系航信或者建议代理人XEPNR后重订。	
+129 ERROR	没有找到匹配的B系统PNR	比较B/C两系统中的PNR，看状态是否相同，有可能C系统的PNR正常，而B系统中的PNR已经取消。需要重新订PNR	
+153 ERROR	B、C系统PNR中的姓名不匹配	核对B/C两系统PNR中的姓名是否相符，然后根据国内、国际姓名更改规定来处理。	
+154 ERROR	系统无法处理的报文格式		
+155 ERROR	系统无法支持的报文		
+260 ERROR	SQ出票失败	删除常旅客卡号ETRY成功后，重新输入常旅客卡号即可	
+368 ERROR	代理人打票机配置信息错误造成国际电子客票出票失败	联系中航信，修改打票机配置的代理人信息，再重试出票。	
+381 ERROR	缺少B系统PNR编码	查询小编码对应的大编码是否存在，如不存在或者大编码已经取消，则需要重新订新PNR	
+394 ERROR	没有电子客票航班	确认航段是否为电子客票航班，是否有E标识，如果不确定最好联系航空公司咨询。	
+395 ERROR	航段已经被打印	已经出成功票的PNR无法再次出票，核对报表及PNR里的相关信息是否正确，如创建了电子票面，但报表和编码还是显示失败则需要联系航信修改结算	
+396 ERROR	客票状态不正确	电子票面不是需要的状态，作废，退票，改期，换开都需要是OPEN FOR USE状态	
+400 ERROR	票号已经被使用	客票状态已经USED/FLOWN，已经使用过	
+401 ERROR	无法找到票号	电子票面无法提取出来，可能未出票成功	
+440 ERROR	客票状态不正确	电子票面不是需要的状态，作废，退票，改期，换开都需要是OPEN FOR USE状态	
+441 ERROR	客票状态不正确	电子票面不是需要的状态，作废，退票，改期，换开都需要是OPEN FOR USE状态	
+464 ERROR	FC项超长	检查FC项是否超长，或者是否有特殊字符及备注超长，缩短FC项，去除特殊字符，重试出票	
+465 ERROR	EI中有特殊字符：, . \ ( ) *等	检查EI项，或删除EI重新输入	
+467 ERROR	无法找到匹配的PNR编码	查询小编码对应的大编码是否存在，如不存在或者大编码已经取消，则需要重新订新PNR，如是在外航中遇到该情况，可能需要联系航信对外航及1E的编码进行重新匹配。	
+707 ERROR	行李问题	北美内陆段，要求为无行李，FC里面输入了F-00KG，或F-00PC，重新出票可成功。	
+744 ERROR	证件号问题	缺少或无效的证件号码，如订OPEN票，则需输入SSR FQTV，可尝试输入SSR FOID格式加任意号码后，ETRY成功。	
+744 ERROR	如订OPEN票，则需输入FQTV常旅客卡号。	外航OPEN航段，需要输入SSR FQTV；或PSPT输入格式不对	
+74B ERROR	运价不符	出票过程中，运价不符合航空公司要求，请与航空公司联系	
+800 ERROR	DOCS项问题	1.检查PNR中DOCS项输入是否正确，可能航空公司两字代码或者格式输入错误。
+2.对方航空公司未收到DOCS信息。重新RT编码，XE DOCS项，封口，重新提PNR，再次输入DOCS项，尝试重新传输，看航司是否能接收到	
+913 ERROR	国际电子客票出票失败，修改打票机配置的代理人信息	联系航信配置组，修改打票机配置的代理人信息，再重试出票。	
+ACK	NACK项有X，需要去掉	按去X步骤处理：票打出，但票号没有过，NACK X，做AM：1跳过票号，如未打出票，需要XO:1→TO:1放票	
+ACTION	行动代码不正确或DZ时打票机的NACK项不正常	检查PNR中的行动代码和打票机NACK项是否正常	
+ACTION CODE	行动代码不正确或QTE时出该提示	检查PNR中的行动代码或QTE时航段中有不是HK状态的航段，做@K即可	
+ACTIVE	OUTPUT为ACTIVE状态，	上票号之前必须先关闭输出状态.XO即可	
+AIRLINE	查询票价时，应加航空公司代码或航空公司代码不正确	AV时候在正确的位置加入正确的航空公司代码	
+AIRLINE CODE	VT作废时应输入13位完整票号，客票代码和10票号间用-分隔	核对VT正确的格式	
+ALREADY PRINTED&ACKNOWLEDGED AND VOIDED	已经打过票，而且已经作废过	只能作废一次打印过的客票	
+ALREADY VOIDED	已经作废过	未打印的空票号只能作废一次	
+AMOUNT	数值不正确，或在只许输入数字的字段输入了非数字字符	检查FC或FN中的数值输入的正确性，是否有非法字符	
+ARNK SEGMENT INCORRECT, ISSUING NOT PERMITTED	缺口程航段输入有误	缺口程三字码输入错误，检查	
+AUTHORITY	权限限制	权限限制或未获航空公司授权，查看DDI:或是退票中只能在出票OFFICE使用自动退票功能	
+BIRTHDAY(DDMMMYY),PLS	输入SSR INFT时出现	按格式要求输入正确的婴儿出生日月年5dec05/05dec05	
+C0003 1501:该用户不存在或密码错	已连接到深圳凯亚客户前端管理服务器，但用户名或者密码输入错	检查用户名和密码输入的正确性	
+CAN NOT RETRY THIS ET,TICKET IS OUT OF DATE	不能重新重试该ET票，超出日期	该ET不是当天销售的，不能执行重试操作	
+CAN NOT RETRY THIS PNR.ETDZ FIRST	PNR没有执行ETDZ指令，不能执行重试指令	做ETRY:前，需要符合条件，需要先ETDZ出票先	
+CAN NOT USE *CH FOR NON CHD PASSENGER	CHD问题	儿童编码，需要输入CHLD后才可用PAT:A*CH入儿童价格，输入SSR CHLD CZ HK1 05FEB09/P1后才可用PAT:A*CH输入儿童价格	
+CASH COLLECTION (SCNY?????.??)LOST	FN中没有SCNY项	检查FN中有没有SCNY项	
+CHECK AGENCY CTC	没有输入CT项或出票人地址信息项	根据订座地区，录入对应联系组项，如：深圳地区编码补录：CT SZX/T,再封口后，继续操作	
+CHECK BLINK CODE	无特殊含义	尝试@K或者@KI封口	
+CHECK CONTINUITY	检查航段的连续性，使用@I	检查航段的连续性，使用@I可以强行封口，可用SA或者CS调整，可正常封口	
+CHECK INPUT FORMAT	TRFD时的错误提示	没有建立打票机控制	
+CHECK REFUND NUMBER	TRFD时的错误提示	检查票号输入格式或其它项的格式是否正确	
+CHECK SEAT COUNT	SD或SS时候出现	由于SD或SS的订座座位数与实际PNR中的旅客数不符造成，检查订座数量	
+CITY	FC中的城市与PNR航程不符或城市三字代码未在系统中定义	检查FC中输入是否错误，改正	
+CITY PAIR	应输入城市对或城市对输入不正确	检查城市对代码是否输入正确	
+CLASS	需要输入舱位等级	输入舱位等级	
+CODE	出现非法字符或代码不正确	检查是否有非法字符	
+COMMISSION (C??.??) LOST	FN中没有输入C项	检查FN中有没有代理费率项	
+CONF AREA	TC项运输区域号不正确，只能是1,2,3	检查TC	
+CONTACT ELEMENT MISSING	缺少联系组，将联系电话输入到PNR中	输入CT电话项	
+CONTINUITY	FC中航段衔接不连续或有些字段未加空格或航段不连续，地面运输应用ARNK连接	检查航段的连续性，用SA或者CS调整	
+COUPON NUMBER INCORRECT	ETRF更改客票状态时出现	航段序号输入不对，检查一下客票状态	
+COUPON STATUS CODE INVALID	票面状态无效或者不正确	检查电子客票票面状态是否符合改期或者挂起的要求，即OPEN FOR USE	
+CURRENCY	货币代码不正确	改用正确的货币代码	
+DATE	输入的日期不正确	检查输入日期格式	
+DATE FORMAT IS DDMMMYY	日期输入错误，应为DDMMMYY格式	输入正确格式	
+DATE RANGE	日期问题	超出日期，原因是PNR中包含有过期的历史航段，QTE时无法计算过期航段价格，需用SEL:2选择当前有效航段，再做QTE:/XX即可	
+DECIMAL	小数位不正确或与前面输入不符，或小数点位数与打票机定义不一致	查看DI，须修改FN项或打票机的定义；也有可能是外航当地货币代码未在系统中定义，需要代理人与中航信联系。	
+DEVICE	打票机序号不正确	可以DDI:先查询正确的打票机号，再操作	
+DEVICE ID&TYPE	打票机序号或类型或不是BSP打票机或不匹配，或没有	DI检查打票机的类型是否为需要的类型	
+DUP ID	重复的项	FC、FN出现两次以上，或指定的旅客已有FC、FN项，检查PNR中FC、FN或EI项重复或TC项重复	
+DUPLICATE SEGMENT	PNR中航段重复	检查PNR中是否有重复航段	
+EER-749	TRFD CZ客票时出现	在CZ数据库中票面状态为AIRP CNTL/unk,联系CZ将票面状态改为OPEN FOR USE再退	
+EI ELEMENT MISSING	缺少EI项	补录EI项	
+ELE NBR	旅客序号不正确；或对联程航段操作出现该提示	检查旅客及对应的序号输入是否正确；或对联程航段一起做RR更改	
+ELECTRONIC TICKET TRANSACTION TIME OUT!!	超时	出票超时，
+1.系统通讯原因造成，等待通讯恢复 
+2.FC项里有非法字符，对方系统拒绝，造成超时，修改FC重新出票 
+3.FN里面未输任何一项税，补入TEXEMPT项，重新出票	
+ET PASSENGER DATA NOT FOUND	旅客电子票信息未找到	电子票信息是否超过1年，状态为“USED/FLOWN”；“VOID”；“REFUNDED”时只在系统保留1个月，之后则无法提取。	
+ET PASSENGER NAME MISMATCH	代理人系统编码的姓名航空公司系统编码的姓名不匹配；或者时在PNR中选择航段出票会容易出现该提示	姓名不匹配，根据姓名更改规定处理；或取消非选择的航段（另外编码订回），在原订座编码ETRY就可以成功。	
+ET TICKET NUMBER DUPLICATED	PNR中部分旅客出票失败，造成重新出票提示票号重复	根据情况处理，可能需要分离未出票成功的旅客出来，再重新ETRY。一般存在与多人PNR中其中一个旅客姓名不匹配造成，核对B/C姓名，如有需要，需要联系航信调整结算数据	
+ET TICKET/COUPON NOT FOUND	电子客票票面状态不对，请检查	检查电子客票状态，或输入的航段错误	
+ETRY LB-0340750 TCTRQS ERR-2000_TST:DB TCTRQS$D(0) 14:02:21 67570	联系北京服务台处理	提外航票面时出现，检查是否出票成功及PNR编码报表是否正常，否则联系航信处理	
+FARE BASIS	票价基础输入有误，或过长，或缺少空格	检查票价基础输入是否正确	
+FILL THE FORM MANUALLY	退票中无法识别指定票号，手工填写退票单		
+FLT NUMBER	航班号不正确	填入正确的航班号	
+FOID IS REQUIRED BEFORE TICKETING	应在出票前输入FOID信息	输入SSR FOID旅客身份信息	
+FORMAT	指令格式不正确	检查指令格式，多种情况会出现此提示	
+FORMAT OXT OR RXT	FC输入分项税时，必须以XT开头	根据输入XT税要求来处理	
+ILLEGAL	错误的数字代码使操作被拒绝		
+ILLEGAL SEGMENT	行动代码不对；或者是输入SSR时出现的错误提示	可能是UN,HX,NO，或改期输入错误，如果还是无法输入SSR TKNE项，联系航信；或者可以修改输入指令里的航段序号	
+ILLEGAL UPDATE	XEPNR对过期PNR的操作无效	此订座为过期PNR,不用XE PNR	
+INACTIVE	打票机未建立控制，检查DI中的各状态	TI或者XI	
+INC/FC/IN/P2	缺少婴儿的FC	完成PNR中的FC项	
+INC/FC/P2	数据项不完整，缺少第二位旅客的FC	完成PNR中的其它旅客FC项，如果需要的话	
+INCORRECT COMMISSION RATE	代理费率不对	退票在MASK方式下，如果票面包含非0的Z值或TOURCODE时，COMMISSION RATE 必须为3.00	
+INFANT	缺少婴儿标识或婴儿标识不正确	补上婴儿标识：IN	
+INPUT INACT	打票机输入项未打开	TI打开打票机的INPUT项	
+INVALID CHAR	姓名或文本中存在非法字符或自由格式项中存在非法字符	检查字符输入的正确与否	
+INVALID CHARACTER	ETERM中输入中文姓名出现	ETERM设置问题：点击ETERM的"设置"--"设置系统参数"--"SESSION1参数设定"中的"CHN TYPE"项设置为"CHINESE_INTRODUCTIVE(汉字前带拼音)",确定后重启ETERM即可.	
+INVALID TICKET/COUPON STATUS	无效的票号或票面状态不对或票超过一个月	VOID，USED/FLOWN，等状态票面只保留1个月，超过时间则无法提取到状态	
+INVLID PROFILE NUMBER	输入SSR FQTV时出现	检查SSR FQTV中航空公司和卡号是否相符，如还不行，联系航空公司	
+ITIN/FC	航段与票价计算不符	检查航段与FC中的内容是否相符，如果选择的航段QTE的话，也必须选择航段出票	
+ITINERARY DOES NOT MATCH FC	FC内容与航段不匹配	检查航段与FC中的内容是否匹配	
+LENGTH	内容超长	缩短内容重新输入	
+MANUAL	EI项过长或PNR中某些项过长	EI项过长或PNR中某些项过长，缩短后重试出票。	
+MAX DVC	该终端已控制了最大允许5台打票机	最多控制5台	
+MAX TIME FOR EOT-IGNORE PNR AND RESTART	操作超过最大时间	建立了航段组，但未封口的时间超过5分钟，这时系统内部已作IG，将座位还原，营业员应做IG并重新建立PNR	
+MAX TKTS	打票张数超过最大允许值		
+MCSS:Session path to Itinerary is down	创建报销凭证时显示	关闭ETERM重新打开	
+MULTI-LINE INPUT NOT ALLOWED	做SSR TKNE时出现	SSR TKNE一次只能输入一项，不能一起输入	
+MUST INPUT TAX CN	TKTV时出现该错误提示	儿童票没有输入TEXEMPTCN，输入即可	
+MUST INPUT XO:BEFORE VOIDING ANY TKT	作废票号前须先XO	XO1关闭后继续操作	
+NAME	TKTV或打票时的错误提示	名字超长，缩短输入即可	
+NAME LENGTH	姓名超长或姓氏少于两个字符	检查姓名输入规则，姓名项最长不能超过29个字符(包括空格和斜线在内)	
+NAMES	PNR中缺少姓名项或姓名超长	检查姓名输入规则，姓名项最长不能超过29个字符(包括空格和斜线在内)	
+NEED ES	在对PNR做封口时出现	当前系统中存在多个未处理完得PNR，需要多做几次I，直到显示NO PNR，再重新操作	
+NEED SSR OTHS ELEMENT FOR ET ISSUING !!	缺少SSR OTHS项	输入SSR OTHS 航司代码 TEXT即可成功出票	
+NO DISPLAY	QD执行前没有显示信件		
+NO FORM OF PAYMENT	缺少付款方式项	检查PNR中是否有FP项，并加入	
+NO NAME CHANGE FOR MU/Y	某航空公司不允许修改姓名	不许修改姓名	
+NO PNR	没有需要出票的PNR或ES待合并的PNR不存在		
+NO QUETE	此类信箱不存在	QT:确认是否有该类信箱存在	
+NON-ET SEGMENT	PNR航段没有E标识	联系北京服务台处理添加E标识	
+NOT ENOUGH TICKET NUMBERS ASSIGNED TO DEVICE	没有足够的票号供出票使用	重新上票号，或者一次不要出多张票，分开来打票	
+OFFICE	部门代码不正确	多种操作会出此提示，根据情况来检查指令	
+OPTION	使用自动退票功能只支持新建退票记录，不能使用其它参数；或者是对ZH客票做TRFD：L/……时提示	使用正确的参数来做退票操作或经查看ZH没有开通自动退票功能，使用普通退票指令进行退票	
+OUT OF STOCK	票号用完	重新TN上票	
+OUTPUT	TICKETS项下仍有票	用完剩余的票或者卸票再操作	
+PASSENGER DATA NOT FOUND	TSS挂起时出现该错误提示	编码输入错误，修改即可	
+PENDING	有未完成的旅客订座PNR，在退号前必须完成或放弃它	在SO前需要退控制，或者放弃当前PNR操作。XC，和I	
+PLEASE CHECK TKT ELEMENT	状态为RR后，需加入T票号项	如航段做RR，则必须有票号TK:T/票号项,不做RR，为HK状态，则需要出票时限TK:TL项	
+PLEASE INPUT SSR INFT AND NEED AIRLINE CONFIRM IT	出票或TKTV时出该错误提示	输入SSR INFT项	
+PLEASE SIGN IN FIRST	请先输入工作号，再进行查询	SI进工作号	
+PLS DELETE AUTOMATIC FARE QUOTE FN/FC FIRST	删除FN项后再删除原航段修改或进行改期	改期时先删除FC/FN项在操作	
+PLS INPUT FULL TICKET NUMBER	输入完整的票号，航空公司客票代码及十位票号	输入13位票号，如果需要，客票3位代码与10位票号用-分割	
+PLS NM1XXXX/XXXXXX	姓名中应加斜线（/），或斜线数量不正确	按格式要求正确输入	
+PNR TICKETED	PNR已出过票	此PNR已出过票,要重新出票需删除TN票号项	
+PNR TICKETED	PNR已出过票	如要重打印，删除PNR中票号项，T项，再重出	
+PROFILE PENDING	未处理完常旅客的订座	PSS:ALL处理	
+PROT SET	工作号密码输入错误	检查密码	
+PROTECTED FOR MARKET RESTRICTED	SP分离时的错误提示	航空公司做了销售限制，与航空公司联系	
+PSGR ID	旅客标识不正确；或在做SSR TKNE改期时，旅客姓名与原票面姓名不符	检查旅客标识PX；检查订座姓名和票面姓名是否相符	
+Q EMPTY	Q信箱为空，没有需要处理的Q	QT:XX确认是否有待处理的Q存在	
+Q TYPE	所要发送到的信箱种类在目的部门中没有定义	查询该部门是否有该类型Q	
+QUE PENDING	未处理完信箱中的QUEUE	QDE或QNE	
+RECORD LOCATOR DOES NOT MATCH WITH THE RL IN ISSUSE TKT	作废时未输入记录编号	按正确VT格式来输入作废	
+REFUND # ALREADY EXIST	退票操作或退票单已存在	在指定退票单方式下，如果退票单号已被使用，不能提取票面	
+REFUND & TKT NBR NOT MATCH	在TRFD时出现该错误提示	之前的失败的单号没有删除，删除之后就可以继续操作	
+REFUND NUMBER	退票单号错	输入正确的退票单号	
+RESPONSE NUMBER 422  IS BLANK - AVAILABLE FOR USE	做SSR TKNE时出现	通常是客票状态不是HK或RR，或者是订座舱位与原来舱位不一致造成，检查PNR和票面	
+REVALIDATION NOT ALLOWED	航司有限制	航空公司特殊限制某些功能，如B2B出的票，代理人不允许改期，即输入SSR TKNE时出现次错误提示，只能联系航空公司改期	
+RL	记录编号不存在		
+RMK CA/XXXXX NOT FOUND PNR MISMATCH	没有返回或PNR中没有ICS PNR（航空公司大编码），不能执行重试操作	未返回航空公司大编码的记录一般无效，需要重新订新PNR。	
+SCH NBR	航线序号不符	核对航段序号	
+SEAT	SO退出系统再重新进入	SO后在重新SI进入	
+SEAT RES TOO LATE	ADM预定机位时出现	机上预订座位需至少提前3天，否则不允许机上预订座位	
+SEATS	订座数与PNR中旅客数不一致或座位数与姓名数不符，或者做任何指令提示：SEATS	可RT检查当前PNR，核对人数和所订座位数，或强行退出工作号SO	
+SECURITY VIOLATION	必须联系UA		
+SEGMENT	城市对输入无效	检查城市对代码是否输入正确	
+SEGMENT PNR	PNR中航段项太多，超过16段	减少航段数量或者分开PNR订	
+SIMULTANEOUS MODIFICATION-REENTER MODIFICATION	类似的修改	IG并重新输入当前修改	
+SIMULTANEOUS UPDATE	类似的修改	IG并重新输入当前修改	
+SIZE	自由格式文本超长	缩短文本长度	
+SKED CHANGE	航段后有"S"标识,表示航班做过变更	航段后有红色的“AS”或“S”标识，表示航班做过变更，@K后再进行后续操作	
+SPLIT NOT ALLOWED ON AIRLINE AE	PNR不允许分离	XX航空公司不允许代理人分离PNR	
+SPLIT PNR	PNR需分离	SP分离后再操作	
+SSR PSPT ELEMENT MISSING	PNR中没有输入旅客身份信息	输入SSR FOID或SSR PSPT	
+SSR TKNE MISMATCH,PLEASE CHECK AGAIN	航段序号不对，或者相关输入格式错误或不匹配	检查输入格式，入格式无误，票面状态正确，还是输入不了，联系航信	
+STATUS	航段中行动代码出现UC、UN、NO等	航段无效，重新订座	
+STOCK	打票机票号使用完或不够用，重新上新票号	TN重新上新票号	
+TAX	税种填写错误，或税种与税金额两项缺一项	使用税项正确填写格式，CNY3500.00YR	
+TEST MODE	已经输入了测试票号	TN:1/T/ON→TN:1/T/OFF打开或关闭测试票号	
+THIS AGENT IS NOT AUTHORIZED FOR ETDZ!	工作号需要出电子客票授权	用11级的工作号做AGNT，开通或关闭电子客票出票权限	
+TICKET NUMBER	VT作废时出该提示	连续票号，需要一起作废即可	
+TICKET NUMBER NOT FOUND	退票是显示该错误信息	时间超过45天，用回原退票方式即可	
+TICKET PRINTER IN USE	未退出打票机控制，退出后即可	XC打票机	
+TICKET STATUS ELEMENT MISSING	缺少出票项，需手工输入	TK:T/或者TK:TL	
+TICKETS ALREADY ISSUED,PLS DELETE TK:T OR TK:TL	ETDZ时出该错误提示	取消T或TKTL项，再重新ETDZ	
+TICKETS NOT ISSUED TO OFFICE	TN上票号时提示，票号范围输入错误	通过TOL查看，发现该票号是WD状态表示已经回收，不能上	
+TIME	输入时间不正确	检查输入时间	
+TIME OUT - RETRY LATER	退票中访问超时	请稍后重试，或直接手动填写退票记录	
+TIMES	缺少起飞或到达时间	航段/起飞时间 到达时间,6/1107 1425+1	
+TKT LOADING FAILED	退票中指定票号对应的打票记录不存在	手工填写退票单	
+TKT MUST BEEN ISSUED TODAY	只能作废当天打印的客票	确认票是否当天所出，及是否在当天的TSL报表中，即可作废，否则不能	
+TKT NBR	票号范围超过最大允许500	检查所上的票号是否超过500张	
+TKT NBR MUST IN THE RANGE OF CURRENT USING STOCK	作废的票号必须在当前使用的票号范围内	核对当前作废票号是否是正在使用的票号范围内	
+TKT PRINTER IN USE	SO退出系统时提示	退出打票机控制后再SO	
+TKT TIME RESTRICTION DZ NOT ALLOWED	团队打票时限限制	团队客票一般在起飞前72小时出票，超过了时限将无法打印，联系航空公司	
+TKT# FORMAT ERROR	退票过程中输入票号格式错	检查13位票号	
+TKT# MISMATCH, REOPEN IT	不符	退票在MASK方式下，如果票面包含非0的Z值或TOURCODE时，不可以采用对票号进行修改的方式另外建立一个新退票记录 (新记录可能有不同的Z值)，需要重新提取票面方式建立	
+TOO MANY SEG & PAX ISSUING FOR ET !!	ETDZ时出该错误提示	PNR过大，etdz时选择旅客分批出票即可	
+TOO MANY TICKET ENTRY	提取包含太多旅客，无法显示	在B系统提取即可	
+TOTAL	数额不符	FN中输入的总数与实际总和不一致	
+TOUR ID	旅游标识不正确	修改正确的旅游代码	
+TOUR TYPE	旅游类型只能是IT或BT	旅游类型只能是IT或BT	
+UNABLE	不能	所订航班舱位不存在或状态不正确，或打票机已被其它控制	
+USER GRP	工作号级别输入错误	核对该工作号及所如配置的PID，是否都具有相应的级别	
+WORKING Q	正在处理的Q	正在对Q信箱进行处理，未处理完时，不能对其它Q进行操作要结束原来的处理可以做QDE或QND，再QS:XX	
+WRONG DEVICE TYPE	打票机类型不对	检查打票机类型	
+XT MISMATCH WITH IN FN	FC中的XT税展开后的价钱总和与FN中的XT税的价钱不等	核对价钱数值	
+YEAR	TC项年，只能用最后一位数字表示	用1位数字标识年

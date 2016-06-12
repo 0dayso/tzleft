@@ -1,0 +1,7 @@
+group = 'com.travelzen'
+version = "${versions.tops_farerule}"
+
+dependencies {
+	compile libraries.slf4j_api
+	compile libraries.thrift
+}

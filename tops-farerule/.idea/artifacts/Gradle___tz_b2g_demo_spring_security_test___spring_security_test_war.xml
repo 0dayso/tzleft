@@ -1,0 +1,35 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : tz.b2g.demo:spring_security_test : spring_security_test.war">
+    <output-path>$PROJECT_DIR$/build/classes/artifacts/spring_security_test</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$/../b2g/demo/spring_security_test" />
+    </properties>
+    <root id="archive" name="spring_security_test.war">
+      <element id="javaee-facet-resources" facet="spring_security_test/web/Web Gradle : spring_security_test.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spring_security_test" />
+          <element id="dir-copy" path="$PROJECT_DIR$/../b2g/demo/spring_security_test/target/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/3.1.4.RELEASE/56d52794df838d0bc3ccbc149a62ea019946f82a/spring-security-web-3.1.4.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/3.1.4.RELEASE/196e312b9c05118c814de71eafa9c603bef3617b/spring-security-config-3.1.4.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/3.0.7.RELEASE/c53d9bf4e6a6a6cf49c7d7630e612042364295a1/spring-jdbc-3.0.7.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/3.0.7.RELEASE/e52176ba360e47d132bbc80dc144a916dd75eee7/spring-aop-3.0.7.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/3.0.7.RELEASE/879efa009384def7ff8aba72a8d3e2fac7de770f/spring-web-3.0.7.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/3.0.7.RELEASE/c340bf8606f6bf235bc1277d25315df1abe51c31/spring-tx-3.0.7.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/3.0.7.RELEASE/e0072743c5c485e0b36a8fce109dcd5c08c5323f/spring-context-3.0.7.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/3.0.7.RELEASE/2c90825834a037aab6f6a71bbd05d81680832c49/spring-core-3.0.7.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/3.0.7.RELEASE/5915c3eee8dc193b19b648719d653439c57fc0d8/spring-beans-3.0.7.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/3.0.7.RELEASE/61999bb2e1e5f7a1c13e91a58761c48dc1d71cf9/spring-expression-3.0.7.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/3.1.4.RELEASE/41af4a10d7e31722bd8ef2c101f60afb6c24e04b/spring-security-core-3.1.4.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-asm/3.0.7.RELEASE/cadd0ed7b1aeea0c2858ada0d6397e8423aad6a3/spring-asm-3.0.7.RELEASE.jar" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/build/classes/artifacts/spring_security_test/exploded/spring_security_test.war/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

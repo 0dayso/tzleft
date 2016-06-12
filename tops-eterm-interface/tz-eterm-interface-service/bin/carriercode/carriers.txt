@@ -1,0 +1,651 @@
+1.	3J,阿莱恩斯航空公司,AIR ALLIANCE
+2.	4D,西奈航空公司,AIR SINAI
+3.	4N,北部航空公司,AIR NORTH
+4.	4V,船夫航空公司,VOYAGEUR AIRWAYS
+5.	5F,北极圈航空服务公司,ARCTIC CIRCLE AIR
+6.	5L,玻利维亚航空公司,AEROSUR
+7.	5X,联合包裹公司,UNITED PARCEL SERVICE
+8.	6A,阿维亚克萨航空公司,AVIACSA
+9.	6E,马尔莫航空公司,MALMO AVIATION
+10.	6U,乌克兰航空公司,AIR UKRAINE
+11.	6V,维加斯航空公司,AIR VEGAS
+12.	6Y,尼加拉瓜航空公司,NICARAGUENSESDE AVIACION
+13.	7F,冠军航空公司,FIRST AIR
+14.	7H,纪元航空公司,ERA AVIATION
+15.	8G,万能捷运公司,GP EXPRESS AIRLINES
+16.	8J,塔尔喷气航空公司,JET ALL
+17.	8S,塞尔航空公司,SAL AIR
+18.	9A,大西洋航空公司,AIR ATLANTIC
+19.	9C,吉尔航空公司,GILL AIRWAYS
+20.	9E,捷运航空公司,EXPRESS AIRLINES
+21.	9L,科尔根航空公司,COLGAN AIR
+22.	9N,跨州航空公司,TRANSSTATES AIRLINES
+23.	9P,帕兰吉航空公司,PELANGI AIR
+24.	9U,摩尔多瓦航空公司,AIR MOLDOVA
+25.	9W,喷气机航空公司,JET AIRWAYS
+26.	AA,亚美利加国际航空公司,AMERICAN AIRLINES
+27.	AC,加拿大航空公司,AIR CANADA
+28.	AF,法国航空公司,AIR FRANCE
+29.	AH,阿尔及利亚航空公司,AIR ALGERIE
+30.	AI,印度航空公司,AIR INDIA
+31.	AJ,比利时空运公司,AIR BELGIUM
+32.	AM,墨西哥航空公司,AEROMEXICO
+33.	AN,澳大利亚安塞特航空公司,ANSETT AUSTRALIA
+34.	AO,西班牙商业航空公司,AVIACO
+35.	AQ,阿洛哈航空公司,ALOHA AIRLINES
+36.	AR,阿根廷航空公司,AEROLINEAS ARGENTINAS
+37.	AS,阿拉斯加航空公司,ALASKA AIRLINES
+38.	AT,摩洛哥王家航空公司,ROYALAIRMAROC
+39.	AU,奥斯特拉尔航空公司,AUSTRAL
+40.	AV,哥伦比亚国家航空公司,AVIANCA
+41.	AY,芬兰航空公司,FINN AIR
+42.	AZ,意大利航空公司,ALITALIA
+43.	B2,白令航空公司,BELAVIA
+44.	B4,博雅航空公司,BHOJA AIR
+45.	BA,英国航空公司,BRITISH AIRLINE
+46.	BD,英国中部航空公司,BRITISH MIDLAND
+47.	BI,文莱王家航空公司,ROYAL BRUNEI AIRLINES
+48.	BL,太平洋航空公司,PACIFIC AIRLINES
+49.	BO,印度尼西亚布拉克航空公司,BOURAQ INDONESIA
+50.	BR,长荣航空公司,EVA AIRWAYS
+51.	BU,布拉森斯南美和远东空运公司,BRAATHENSS.A.F.E
+52.	C2,加勒比航空公司,AIR CARIBBEAN
+53.	C4,卡里亚库航空公司,AIR LINESOFCARRIACOU
+54.	C8,芝加哥快运航空公司,CHICAGO EXPRESS AIRLINES
+55.	CA,中国国际航空公司,AIR CHINA
+56.	CF,福塞特航空公司,COMPANIADE AVIACION FAUCETT
+57.	CG,米尔恩湾航空公司,MBAPTYLTD.
+58.	CI,中华航空公司,CHINA AIRLINES
+59.	CJ,中国北方航空公司,CHINA NORTHERN AIRLINES
+60.	CM,巴拿马空运公司,COPA
+61.	CO,大陆航空公司,CONTINENTAL AIRLINES
+62.	CP,加拿大国际航空公司,CANADIAN AIRLINES INTERNATIONAL
+63.	CU,古巴统一航空公司,CUBANA
+64.	CW,马绍尔群岛航空公司,AIR MARSHALL ISLANDS
+65.	CX,国泰航空公司,CATHAY PACIFIC AIRWAYS
+66.	CY,塞浦路斯航空公司,CYPRUS AIRWAYS
+67.	CZ,中国南方航空公司,CHINA SOUTHERN AIRLINES
+68.	D3,达洛航空公司,DAALLO AIRLINES
+69.	D4,艾利斯德尔瑟航空公司,ARI ESDELSUR
+70.	DB,不列特国际航空公司,BRIT AIR
+71.	DC,金色航空公司,GOLDEN AIRFLYG
+72.	DE,康多尔航空公司,CONDORFLUGDIENST
+73.	DI,德英航空公司,DEUTSCHEBA
+74.	DL,三角航空公司,DELTA AIRLINES
+75.	DM,梅尔斯克航空公司,MAERSKAIR
+76.	DS,塞内加尔航空公司,AIR SENEGAL
+77.	DT,哥拉航空公司,TAAG-ANGOLA AIRLINES
+78.	E4,亚洲航空公司,AEROASIA
+79.	E9,恩索尔航空公司,ENSORAIR
+80.	EB,埃默里世界航空公司,EMERYWORLDWIDE
+81.	ED,夏洛特航空公司,CCAIR
+82.	EF,远东航空运输公司,FAR EASTERN AIR TRANSPORT
+83.	EG,日本亚洲航空公司,JAPAN ASIA AIRWAYS
+84.	EH,厄瓜多尔航空公司,SAETA
+85.	EI,爱尔兰航空公司,AERLINGUS
+86.	EK,酋长国际航空公司,EMIRATES
+87.	EL,日本短途航空公司,AIR NIPPON
+88.	EQ,厄瓜多尔军运航航空公司,TAME
+89.	ET,埃塞俄比亚航空公司,ETHIOPIAN AIRLINES
+90.	EU,厄瓜多尔航空公司,ECUATORIANA
+91.	EZ,常青国际航空公司,EVERGREENINT'L AIRLINES
+92.	FA,芬兰空运公司,FINN AVIATION
+93.	FB,法恩航空公司,FINE AIR
+94.	FF,宝塔航空公司,TOWER AIR
+95.	FG,阿里亚纳阿富汗航空公司,ARIANA AFGHAN AIRLINES
+96.	FI,冰岛航空公司,ICELAND AIR
+97.	FJ,太平洋航空公司,AIR PACIFIC
+98.	FM,中国上海航空公司,SHANGHAI AIRLINES
+99.	FQ,阿鲁巴航空公司,AIR ARUBA
+100.	FR,瑞安航空公司,RYAN AIR
+101.	G8,长城公司,GREAT WALL AIRLINE
+102.	GA,印度尼西亚航空公司,GARUDAINDOESIA
+103.	GD,塔埃萨航空公司,TAESA
+104.	GE,环亚航空公司,TRANSASIA AIRWAYS
+105.	GF,海湾航空公司,GULFAIR
+106.	GH,加纳航空公司,GHANA AIRWAYS
+107.	GN,加蓬航空公司,AIR GABON
+108.	GQ,高天航空公司,BIGSKY AIRLINES
+109.	GU,危地马拉航空公司,AVIATECA
+110.	GV,里加航空公司,RIGA AIRLINES
+111.	GY,圭亚那航空公司,GUYANA AIRWAY SCORPORATION
+113.	HA,夏威夷航空公司,HAWAIIAN AIRLINES
+114.	HD,纽约直长机公司,NEWYORK HELICOPTERS
+115.	HF,哈帕克劳埃德航空公司,HAPAGLLOYD
+116.	HJ,霍尔姆斯特鲁姆航空公司,HOLMSTROEM AIR
+117.	HM,塞舌尔航空公司,AIR SEYCHELLES
+118.	HP,亚美利加西方航空公司,AMERICAWEST AIRLINES
+119.	HU,中国海南航空公司,HAINAN AIRLINES
+120.	HV,泛航航空公司,TRANSAVIA AIRLINES
+121.	HX,香港航空,HONGKONG AIRLINES
+122.	HY,乌兹别克斯坦航空公司,UZBEKISTANAIRWAYS
+123.	IB,西班牙航空公司,IBERIA
+124.	IC,印度航空公司,INDIAN AIRLINES
+125.	IE,所罗门航空公司,SOLOMON AIRLINES
+126.	IF,大华航空公司,GREATCHINA AIRLINES
+127.	IG,默里迪恩纳航空公司,MERIDIANA
+128.	IH,猎鹰航空公司,FALCON AVIATION
+129.	II,商业航空公司,BUSINESS AIR
+130.	IJ,欧洲跨地区航空公司,T.A.T.EUROPEAN AIRLINES
+131.	IL,伊斯坦布尔航空公司,ISTANBUL AIRLINES
+132.	IR,伊朗航空公司,IRAN AIR
+133.	IT,法国国内航空公司,AIR INTEREUROPE
+134.	IW,乌特雷默法国航空公司,AOMFRENCH AIRLINES
+135.	J2,阿塞拜疆航空公司,AZERBAIJAN HAVAYOLLARY
+136.	J7,瓦卢喷气机航空公司,VALUE JET AIRLINE
+137.	JB,喷气直升机航空公司,HELIJET AIRWAYS
+138.	JE,曼克斯航空公司,MANX AIRLINES
+139.	JH,诺德斯特航空公司,NORDESTE
+140.	JK,斯潘航空公司,SPAN AIR
+141.	JL,日本航空公司,JAPAN AIRLINES
+142.	JM,牙买加航空公司,AIR JAMAICA(1968)LTD.
+143.	JP,亚得利亚航空公司,ADRIA IRWAYS
+144.	JR,加利福尼亚航空公司,AERO CALIFORNIA
+145.	JS,朝鲜民航,AIR KORYO
+146.	JU,南斯拉夫航空公司,JAT
+147.	JW,箭航空公司,ARROWAIR
+148.	JY,泽西欧洲航空公司,JERSEYEUROPEAN AIRWAYS
+149.	KA,港龙航空公司,DRAGON AIR
+150.	KB,德鲁克航空公司,DRUK-AIR
+151.	KD,肯德尔航空公司,KENDELL AIRLINES
+152.	KE,大韩航空公司,KOREAN AIR
+153.	KF,博特尼亚航空公司,AIR BOTNIA
+154.	KK,地区航空运输公司,TRANSPORTES AEREOSREGIONAIS
+155.	KL,荷兰王家航空公司,KLM-ROYALDUTCH AIRLINES
+156.	KM,马耳他航空公司,AIR MALTA
+157.	KP,基维国际航空公司,KIWI INTERNATIONAL AIRLINES
+158.	KQ,肯尼亚航空公司,KENYA AIRWAYS
+159.	KR,卡尔航空公司,KAR AIR
+160.	KU,科威特航空公司,KUWAIT AIRWAYS
+161.	KW,狂欢节航空公司,CARNIVAL AIRLINES
+162.	KX,开曼航空公司,CAYMAN AIRWAYS
+163.	LA,智利国家航空公司,LAN-CHILE
+164.	LC,加勒比航空公司,LINEASAEREASDELCARIBE
+165.	LD,香港航空公司货运公司,AHK AIR HONGKONG
+166.	LG,卢森堡航空公司,LUX AIR
+167.	LH,德国汉莎航空公司,LUFTHANSA
+168.	LI,背风群岛航空公司,LIAT
+169.	LJ,塞拉国家航空公司,SIERRANATIONAL AIRLINES
+170.	LM,安的列斯航空公司,ALM
+171.	LO,波兰航空公司,LOT-POLISH AIRLINES
+172.	LR,哥斯达黎加航空公司,LACSA
+173.	LT,温特内曼国际航空公司,L.T.U INTERNATIONAL AIRWAYS
+174.	LX,克罗斯航空公司,CROSS AIR
+175.	LY,以色列航空公司,EIAIISRAEL AIRLINES
+176.	M9,莫迪汉航空公司,MODILUFT
+177.	MA,匈牙利航空公司,MALEV
+178.	MD,马达加斯加航空公司,AIR MADAGASCAR
+179.	MH,马来西亚航空公司,MALAYSIA AIRLINES
+180.	MI,丝绸航空公司,SILK AIR
+181.	MJ,阿根廷航空公司,LAPA
+182.	MK,毛里求斯航空公司,AIR MAURITIUS
+183.	ML,哥斯达黎加航空公司,AERO COSTARICAACORI
+184.	MM,麦德林航空公司,SAM
+185.	MN,商用航空公司,COMMERCIAL AIRWAYS
+186.	MO,静空国际航空公司,CALMAIR INTERNATIONAL
+187.	MP,荷兰马丁航空公司,MARTIN AIR HOLLAND
+188.	MQ,西蒙斯航空公司,SIMMONS AIRLINES
+189.	MR,毛里塔尼亚航空公司,AIR MAURITANIE
+190.	MS,埃及航空公司,EGYPTAIR
+191.	MU,中国东方航空公司,CHINA EASTERN AIRLINES
+192.	MW,马亚航空公司,MAYA AIRWAYS
+193.	MX,墨西哥航空公司,MEXICANA
+194.	MZ,梅帕蒂航空公司,MERPATINUSANTARA AIRLINES
+195.	NA,公务航空公司,EXECUTIVE AIRLINES
+196.	ND,链环航空公司,AIR LINK
+197.	NF,维加斯航空公司,AIR VANUATU
+198.	NI,葡萄牙航空公司,PORTUGALIA
+199.	NK,斯皮里特航空公司,SPIRIT AIRLINES
+200.	NT,加那利航空公司,BINTERCANARIAS
+201.	NU,日本跨洋航空公司,JAPANTRANSOCEANAIR
+202.	NV,西北地区航空公司,NORTHWEST TERRITORIAL AIRWAYS
+203.	NW,西北航空公司,NORTHWEST AIRLINES
+204.	NZ,新西兰航空公司,AIR NEWZEALAND
+205.	OA,奥林匹克航空公司,OLYMPIC AIRWAYS
+206.	OD,苏利亚纳航空公司,ZULIANADE AVIACION
+207.	OE,西方短程航空公司,WEST AIR COMMUTER AIRLINES
+208.	OH,库姆航空公司,COMAIR
+209.	OK,捷克斯洛伐克航空公司,CZECH AIRLINES
+210.	OM,蒙古航空公司,MIAT-MONGOLIAN AIRLINES
+211.	ON,瑙鲁航空公司,AIR NAURU
+212.	OO,天西航空公司,SKYWEST AIRLINES
+213.	OS,奥地利航空公司,AUSTRIAN AIRLINES
+214.	OU,克罗地亚航空公司,CROATIA AIRLINES
+215.	OZ,韩亚航空公司,ASIANA AIRLINES
+216.	PB,布隆迪航空公司,AIR BURUNDI
+217.	PG,曼谷航空公司,BANGKOK AIRWAYS
+218.	PH,波利尼西亚航空公司,POLYNESIAN
+219.	PJ,圣皮埃尔航空公司,AIR ST.PIERRE
+220.	PK,巴基斯坦国际航空公司,PAKISTAN INTERNATIONAL AIRLINES
+221.	PL,秘鲁航空公司,AEROPERU
+222.	PR,菲律宾航空公司,PHILIPPINE AIRLINES
+223.	PT,瑞典西方航空公司,WEST AIR SWEDEN
+224.	PU,乌拉圭国家航空公司,PLUNA
+225.	PX,新几内亚航空公司,AIR NIUGINI
+226.	PY,苏里南航空公司,SURINAM AIRWAYS
+227.	QA,加勒比航空公司,AERO CARIBE
+228.	QF,快达航空公司,QANTAS AIRWAYS
+229.	QK,诺瓦航空公司,AIR NOVA
+230.	QL,莱索托航空公司,LESOTHO AIRWAYS
+231.	QM,马拉维航空公司,AIR MALAWI
+232.	QP,肯尼亚航空公司,AIR KENYA AVIATION
+233.	QQ,里诺航空公司,RENO AIR
+234.	QS,塔特拉航空公司,TATRA AIR
+235.	QU,乌干达航空公司,UGANDA AIRLINES
+236.	QV,老挝航空公司,LAO AVIATION
+237.	QX,地平线航空公司,HORIZON AIR
+238.	QY,欧洲航空运输公司,EUROPEAN AIR TRANSPORT(CARGO)
+239.	RA,尼泊乐王家航空公司,ROYAL NEPAL AIRLINES
+240.	RB,叙利亚阿拉伯航空公司,SYRIANARAB AIRLINES
+241.	RC,大西洋航空公司,ATLANTIC AIRWAYS
+242.	RD,诺瓦航空公司,AVIANOVA
+243.	RG,瓦力格航空公司,VARIG
+244.	RI,曼达拉航空公司,MANDALA AIRLINES
+245.	RJ,约旦王家航空公司,ROYALJORDANIAN
+246.	RK,非洲航空公司,AIR AFRIQUE
+247.	RO,罗马尼亚航空公司,TAROM
+248.	RQ,英基阿地纳航空公司,AIR ENGIADINA
+249.	RS,洲际航空公司,INTERCONTINENTALDE AVIACION
+250.	RV,里夫阿留申航空公司,REEVEALEUTIAN AIRWAYS
+251.	RY,卢旺达航空公司,AIR RWANDA
+252.	SB,喀里多尼亚国际航空公司,AIR CALEDONIEINTERNATIONAL
+253.	SC,山东航空公司,SHANDONG AIRLINES
+254.	SD,苏丹航空公司,SUDAN AIRWAYS
+255.	SE,达伊罗货运航空公司,DAS AIR(CARGO)
+256.	SF,包机航空公司,AIR CHARTER
+257.	SJ,南方航空运输公司,SOUTHERNAIRTRANSPORT
+258.	SK,北欧航空公司,SAS
+259.	SL,里奥南部地区航空服务公司,RIO-SULSERVICOSREGIONAIS
+260.	SN,比利时世界航空公司,SABENA
+261.	SP,亚速尔航空公司,SATA AIR ACORES
+262.	SQ,新加坡航空公司,SINGAPORE AIRLINES
+263.	SR,瑞士航空公司,SWISS AIR
+264.	SU,俄罗斯航空公司,AEROFLOT
+265.	SV,沙特阿拉伯航空公司,SAUDIA
+266.	SW,纳米比亚航空公司,AIR NAMIBIA
+267.	SY,阳光地区航空公司,SUNCOUNTRY AIRLINES
+268.	SZ,中国西南航空公司,CHINA SOUTHWEST
+269.	T8,内乌肯航空公司,NEUQUENDELESTADO
+270.	TA,塔卡国际航空公司,TACA INTERNATIONAL AIRLINES
+271.	TC,坦桑尼亚航空公司,AIR TANZANIA CORPORATION
+272.	TE,立陶宛航空公司,LITHUANIAN AIRLINES
+273.	TG,泰国国际航空,THAI AIRWAYS INTERNATIONAL
+274.	TK,土耳其航空公司,TURKISH AIRLINES
+275.	TM,莫桑比克航空公司,LAM-LINHASAEREASDEMOCAMBIQUE
+276.	TP,葡萄牙航空公司,TAPAIRPORTUGAL
+277.	TQ,环瑞典航空公司,TRANSWEDE AIRWAYS
+278.	TR,环巴西航空公司,TRANSBRASIL
+279.	TU,突尼斯航空公司,TUNIS AIR
+280.	TW,环球航空公司,TWA
+281.	TY,喀里多尼亚航空公司,AIR CALEDONIE
+282.	TZ,环美航空公司,AMERICANTRANS AIR
+283.	UA,联合航空公司,UNITED AIRLINES
+284.	UB,缅甸航空公司,MYANMAR AIRWAYS INTL
+285.	UC,拉德科智利航空公司,LADECO
+286.	UD,赫克斯航空公司,HEX AIR
+287.	UG,突尼斯空运公司,TUNINTER
+288.	UK,联合王国航空公司,AIR UK
+289.	UL,兰卡航空公司,AIR LANKA
+290.	UM,津巴布韦,AIR ZIMBABWE
+291.	UP,巴哈马航空公司,BAHAMAS AIR
+292.	US,合众国航空公司,US AIRWAYS
+293.	UU,奥斯特拉尔航空公司,AIR AUSTRAL
+294.	UY,喀麦隆航空公司,CAMEROON AIRLINES
+295.	V3,瓦努阿图航空公司,VAN AIR
+296.	VA,委内瑞拉国际航空公司,VIASA
+297.	VD,自由航空公司,AIR LIBERTE
+298.	VE,委内瑞拉航空,AVENSA AERO VISAVENEZOLANAS
+299.	VI,别克斯航空公司,VIEQUES AIRLINK
+300.	VK,通加鲁航空公司,AIR TUNGARUCORP
+301.	VM,法国地区航空公司,REGIONAL AIRLINES
+302.	VN,越南航空公司,VIETNAM AIRLINES
+303.	VO,蒂罗林航空公司,TYROLEAN AIRWAYS
+304.	VP,圣保罗航空公司,VASP
+305.	VS,维尔京大西洋航空公司,VIRGIN ATLANTIC
+306.	VT,塔希提航空公司,AIR TAHITI
+307.	VU,象牙航空公司,AIR LVOIRE
+308.	VX,哥伦比亚中央航空公司,ACES
+309.	WB,国民航空服务公司,SAN
+310.	WE,莱茵山航空公司,RHEINTALFLUGSEEWALD
+311.	WF,维德勒航空公司,WIDEROE'SFLYVESELSKAP
+312.	WH,中国西北航空公司,CHINA NORTHWEST AIRLINES
+313.	WI,贸易风国际航空公司,TRADE WINDS INTERNATIONAL(CARGO)
+314.	WL,太平洋大西洋航空公司,AERO PERLAS
+315.	WM,向风群岛国际航空公司,WINDWARD ISLANDS AIRWAYS
+316.	WN,西南航空公司,SOUTHWEST AIRLINES
+317.	WR,汤加皇家航空公司,ROYAL TONGAN AIRLINES
+318.	WT,尼日利亚航空公司,NIGERIA AIRWAYS
+319.	WX,安塞特快运公司,CITY JET ANSETT EXPRESS
+320.	WY,阿曼航空公司,OMAN AIR
+321.	XJ,梅萨巴航空公司,MESABA AVIATION
+322.	XK,地中海科西嘉航空公司,COMPAGNIEAERIENNECORSE
+323.	XO,中国新疆航空公司,XINJIANG AIRWAYS
+324.	XQ,行动航空公司,ACTION AIRLINES
+325.	XW,中国新华航空公司,XINHUA AIRLINES
+326.	YN,魁北克航空公司,AIR CREEBEC
+327.	YP,劳埃德航空公司,AEROLLOYD
+328.	YR,风景航空公司,SCENIC AIRLINES
+329.	YU,多米尼加空运公司,DOMIN AIR
+330.	YX,中西部捷运公司,MIDWEST EXPRESS AIRLINES
+331.	YZ,几内亚比绍运输公司,AEREOSDAGUINE-BISSAU
+332.	ZB,群主航空公司,MONARCH AIRLINES
+333.	ZC,斯威士兰皇家航空公司,ROYAL SWAZI AIRWAYS
+334.	ZH,深圳航空公司,SHENZHEN AIRLINES
+335.	ZK,格雷特湖航空公司,GREATLAKES AVIATION
+336.	ZL,黑泽尔顿航空公司,HAZELTON AIRLINES
+337.	ZM,扎伊尔夏依波空运公司,SCIBE AIRLIFT
+338.	ZQ,新西兰安塞特航空公司,ANSETT NEWZEALAND
+339.	ZR,穆克航空公司,MUK AIR
+340.	ZV,中西部航空公司,AIR MIDWEST
+341.	ZY,阿达航空公司,ADA AIR
+342.	NX,澳门航空,Air Macau
+343.	HO,吉祥航空,AIR JUNEYAO
+344.	MF,厦门航空, XIAMEN AIR
+345.	QR,卡塔尔航空,Qatar Airways
+346.	B7,长荣航空, EVA Air
+347.	BR,长荣航空,EVA Air
+348.	EY,阿提哈德航空,Etihad Airways
+349.	S7,西伯利亚航空,S7 Airlines
+350.	S2,撒哈拉航空,Air Sahara
+351.	S4,SATA International,SATA International
+352.	S9,East African Safari Air,East African Safari Air
+353.	SA,南非航空,South African Airways
+354. 	K9,通里萨航空,Tonle sap airline
+355. 	KT,大高航空,KTK Airlines
+356.	KV,Kavminvodyavia,Kavminvodyavia
+357.	KY,昆明航空 ,Kunming Airlines 
+358.	KZ,日本货物航空,Nippon Cargo Airlines
+359.	7B,	克拉斯诺亚尔斯克航空,Krasnojarsky Airlines
+360.	7C,济州航空,Jeju Air 
+361.	7D,顿涅兹克航空,Donbassaero Airlines 
+362.	7G,星悦航空,Star Flyer 
+363.	7K,康加林姆航空,Kogalymavia Airlines 
+364.	7L,Sun d'Or International Airlines,Sun d'Or International Airlines 
+365.	U2,easyJet 
+366.	U5,USA 3000 Airlines 
+367.	U6,乌拉尔航空,Ural Airlines
+368.	U8,Armavia,Armavia
+369.	U9,Tatarstan Airlines,Tatarstan Airlines
+370.	UO,香港快运航空,Hong Kong Express Airways
+371.	UQ,O'Connor Airlines,O'Connor Airlines
+372.	UX,Air Europa Lineas Aereas,Air Europa Lineas Aereas
+373.	V7,塞内加尔航空,Air Senegal
+374.	V9,BAL,BAL
+375.	VF,惠旅航空,Valuair 
+376.	VH,Aeropostal,Aeropostal
+377.	VR,佛得角航空,Cape Verde Airlines
+378.	VV,乌克兰空中世界航空,Aerosvit
+379.	VZ,MyTravel Airways,MyTravel Airways
+381.	G0,加纳国际航空公司,Ghana International Airlines
+382.	G4,忠实航空,Allegiant Air
+383.	G5,Enkor,Enkor
+385.	G9,阿拉伯航空,Air Arabia
+386.	GB,ABX Air,ABX Air
+387.	GC,甘比亚国际航空,Gambia International Airlines
+388.	GE,复兴航空,Trans Asia Airways
+389.	GF,海湾航空,Gulf Air
+390.	GH,加纳航空,Ghana Airways
+391.	GM,斯洛伐克航空,Air Slovakia
+392.	GN,加蓬航空,Air Gabon
+393.	GQ,Big Sky Airlines,Big Sky Airlines
+394.	GS,天津航空,Tianjin Airlines
+395.	GT,GB Airways,GB Airways
+396.	GW,Kubun Airlines,Kubun Airlines
+397.	W2,加拿大西部航空公司,Canadian Western Airlines
+398.	W3,Flyhy Cargo Airlines,Flyhy Cargo Airlines
+399.	W5,马汉航空,Mahan Air
+401.	W6,Wizzair,Wizzair
+402.	W8,加拿大喷气机航空公司,Cargojet Airways Ltd.
+403.	W9,Sky Service Bvba,Sky Service Bvba
+404.	WD,DAS Air Cargo,DAS Air Cargo
+406.	WK,American Falcon,American Falcon,
+407.	WO,世界航空,World Airways
+408.	WS,WestJet,WestJet
+409.	WV,瑞典航空,Swe Fly
+410.	WW,bmibaby Limited,bmibaby Limited
+411.	K6,吴哥航空,Cambodia Angkor Air
+412.	3K,捷星亚洲航空,Jetstar Asia
+413.	3U,四川航空,Sichuan Airlines
+414.	3A,珠江客运,中国
+415.	4A,基里巴斯航空,Air Kiribati
+416.	4K,阿斯卡里航空,Askari Aviation
+417.	4L,阿斯坦纳航空,Air Astana
+418.	4R,汉堡国际,HI Hamburg International
+419.	4U,Germanwings,Germanwings
+420.	5C,CAL Cargo Air Lines,CAL Cargo Air Lines
+421.	5D,V-Bird Airlines,V-Bird Airlines
+422.	5G,Skyservice Airlines,Skyservice Airlines
+423.	5J,宿雾太平洋航空,Cebu Pacific Air
+424.	5P,Skyeurope Airlines Hungary,Skyeurope Airlines Hungary
+425.	5T,北加拿大航空,Canadian North
+426.	5W,Astraeus,Astraeus
+427.	5Y,亚特拉斯航空,Atlas Air
+428.	6B,TUIfly Nordic,TUIfly Nordic
+429.	6G,威尔士航空,Air Wales
+430.	6H,以色列航空,El Al Israel Airlines
+431.	6J,亚洲天网航空,Skynet Asia Airways
+432.	6P,Club Air,Club Air
+433.	6W,Saratov,Saratov
+434.	6Z,Panavia,Panavia
+435.	8A,亚特拉斯蓝天航空,Atlas Blue
+436.	8B,加勒比海之星航空公司,Caribbean Star Airlines
+437.	8C,东星航空,East Star Airline
+438.	8D,博览会航空,Expo Aviation
+439.	8E,白令航空,Bering Air
+440.	8F,Fischer Air,Fischer Air
+441.	8H,法国直升机,Heli France
+442.	8I,Myway Airlines,Myway Airlines
+443.	8L,云南祥鹏航空,Lucky Air
+444.	8M,缅甸国际航空公司,Myanmar Airways International
+445.	8N,Nordkalottflyg AB,Nordkalottflyg AB
+446.	8O,西海岸航空,West Coast Air
+447.	8P,太平洋海岸航空,Pacific Coastal Airlines
+448.	8Q,Onur Air,Onur Air
+449.	8R,Edelweiss Air,Edelweiss Air
+450.	8T,Air Tindi,Air Tindi
+451.	8U,Afriqiyah Airways,Afriqiyah Airways
+452.	8V,Wright Air,Wright Air
+453.	8W,BAX Global,BAX Global
+454.	8Y,布隆迪航空,Air Burundi
+455.	8Z,LASER,LASER
+456.	9D,彼尔姆航空,Perm Airlines
+458.	9R,普吉航空,Phuket Air
+459.	N3,Omskavia Airline,Omskavia Airline
+460.	N8,中富航空,CR Airways
+461.	NB,Sterling European,Sterling European
+462.	NE,Sky Europe Airlines,Sky Europe Airlines
+463.	NG,维也纳航空公司,Lauda Air
+464.	NH,全日本空输,ANA All Nippon Airways
+465.	NL,Shaheen Air International,Shaheen Air International
+466.	NQ,Air Japan,Air Japan
+467.	NS,河北航空,Hebei Airlines
+468.	KC,阿斯塔那航空公司,Air Astana 
+//469.	1S,Sabra,Sabra
+475.	UN,俄罗斯全禄航空,Transaero Airlines 
+476.	SG,Spicejet,Spicejet 
+477.	SH,FlyMe,FlyMe 	
+478.	A2,Cielos del Peru,Cielos del Peru
+479.	A3,Aegean Airways,Aegean Airways
+480.	A4,Southern Winds,Southern Winds
+481.	A5,Airlinair,Airlinair
+482.	A6,阿尔卑斯航空,Air Alps Aviation
+483.	A7,彗星航空,Air Comet
+484.	A8,贝宁高尔夫航空,Benin Golf Air
+485.	A9,Airzena Georgian Airlines,Airzena Georgian Airlines
+486.	AB,柏林航空,Air Berlin
+487.	AD,天堂航空,Air Paradise
+488.	AE,华信航空,Mandarin Airlines
+489.	AG,Air Contractors,Air Contractors
+490.	AK,亚洲航空,AirAsia Berhad
+491.	AL,擎天航空,Skyway Airlines
+492.	AP,Air One,Air One
+493.	AW,Schreiner Airways,Schreiner Airways
+494.	B3,贝尔韦尤航空公司,Bellview Airlines
+495.	B5,Amadeus Flugdienst,Amadeus Flugdienst
+496.	B6,捷蓝航空,Jetblue Airways
+497.	B8,厄立特里亚航空,Eritrean Airlines
+498.	B9,伊朗陆游航空公司,Iran Air Tours
+499.	BB,海运航空,Seaborne Airlines
+501.	BC,天马航空,Skymark Airlines
+502.	BE,欧洲泽西岛航空,FlyBE
+503.	BF,蓝鸟货运航空公司,Bluebird Cargo
+504.	BG,孟加拉国家航空,Biman Bangladesh Airlines
+505.	BH,鹰空航空服务,Hawkair Aviation
+506.	BJ,Nouvelair Tunisia,Nouvelair Tunisia
+507.	BK,奥凯航空,Okay Airways 
+508.	BM,Bayu Indonesia Air,Bayu Indonesia Air
+509.	BN,Forward Air International Airlines,Forward Air International Airlines
+510.	BP,博茨瓦纳航空,Air Botswana
+511.	BQ,多米尼加航空 ,多米尼加航空 ,
+512.	BS,英国国际直升机公司,British International
+513.	BT,波罗的海航空,Air Baltic
+514.	BV,Blue Panorama Airlines,Blue Panorama Airlines 
+515.	BW,英国西印度航空公司,Bwia West Indies
+516.	BX,海岸航空,Coast Air Ks
+517.	BY,汤姆森航空,Thomsonfly
+518.	C0,中央之翼,Centralwings
+519.	C3,Independent Carrier,Independent Carrier 	
+520.	C5,Champlain Enterprises,Champlain Enterprises  	
+521.	C6,Canjet Airlines,Canjet Airlines
+522.	C7,Rico Linhas Aereas,Rico Linhas Aereas
+523.	C9,Cirrus Airlines,Cirrus Airlines
+524.	CB,ScotAirways,ScotAirways
+525.	CC,冰岛亚特兰大航空,Air Atlanta Icelandic
+526.	CD,印度联盟航空（Alliance Air） 	印度
+527.	CE,国家航空（Nationwide Airlines） 	南非
+528.	CH,伯米吉航空（Bemidji Aviation） 	美国明尼苏达州
+529.	CK,中国货运航空公司（China Cargo） 	中华人民共和国 中华人民共和国
+530.	CL,汉莎城市航空（Lufthansa CityLine） 	德国
+531.	CN,Westward Airways,Westward Airways 	
+532.	CQ,阳光航空,Sunshine Express Airlines） 	澳大利亚
+533.	CR,OAG Worldwide,OAG Worldwide
+534.	CS,密克罗尼西亚大陆航空,Micronesia
+//518.	CT,民航空运公司,Civil Air Transport Inc.
+535.	CV,卢森堡国际货运航空公司,Cargolux Airlines International
+536.	D2,Damania Airways,Damania Airways 	
+537.	D5,Nepc Airlines,Nepc Airlines 	
+538.	D6,Interair South Africa,Interair South Africa
+539.	D7,Dinar Lineas Aereas,Interair South Africa 	
+540.	D8,Diamond Sakha Airlines,Diamond Sakha Airlines	
+541.	D9,Donavia,Donavia
+542.	DA,格鲁吉亚航空,格鲁吉亚航空
+543.	DD,Conti-Flug,Conti-Flug 	
+544.	DF,秃鹰航空,Aebal
+545.	DG,东太平洋航空,South East Asian
+//535.	DH,独立航空（Independence Air） 	美国 (已歇业)
+546.	DK,Eastland Air,Eastland Air 	
+547.	DN,Air Deccan,Air Deccan
+//535.	DO,多米尼加国家航空,Dominicana） 	多米尼加共和国 (已歇业)
+548.	DP,Air 2000,Air 2000 	
+549.	DQ,海岸航空运输公司,Coastal Air Transport
+550.	DR,Hyères Aero Services,Hyères Aero Services 	
+551.	DU,Hemus Air,Hemus Air
+552.	DV,Nantucket Airlines,Nantucket Airlines
+553.	DW,Aero Charter,Aero Charter
+554.	DX,丹麦航空运输公司,Danish Air Transport
+555.	DY,挪威航空,Norwegian Air Shuttle
+556.	DZ,Air Metro North,Air Metro North
+557.	BZ,冠石航空,Keystone Air Service
+558.	E2,Edelweiss Holdings,Edelweiss Holdings 	
+559.	E3,Domodedovo Airlines,Domodedovo Airlines
+560.	E5,Samara Airlines,Samara Airlines
+561.	E7,European Aviation Air,European Aviation Air
+562.	E8,ALPI Eagles,ALPI Eagles
+563.	EA,European Air Express,European Air Express 	
+564.	EC,Avialeasing Aviation Company,Avialeasing Aviation Company
+565.	EE,Aero Airlines,Aero Airlines 	
+566.	EJ,新英格兰航空,New England Airlines
+567.	EM,帝国航空公司 ,帝国航空公司 
+568.	EN,Air Dolomiti,Air Dolomiti
+569.	EO,Express One International,Express One International
+570.	EP,伊朗奥赛玛航空,Iran Aseman Airlines
+571.	ER,Astar Air Cargo,Astar Air Cargo
+572.	ES,DHL国际,DHL国际
+573.	EV,东南大西洋航空,东南大西洋航空
+574.	EW,Eurowings,Eurowings 	
+575.	EX,Aerolineas Santo Domingo,Aerolineas Santo Domingo 	
+576.	L4,Lauda Italy,Lauda Italy
+577.	LB,Lloyd Aereo Boliviano,Lloyd Aereo Boliviano
+578.	LK,Air Luxor,Air Luxor 	
+579.	LL,Lineas Aeras Allegro,Lineas Aeras Allegro
+580.	LN,Libyan Arab Airlines,Libyan Arab Airlines
+581.	LP,秘鲁国家航空,Lan Peru
+582.	LS,Channel Express Air Services,,Channel Express Air Services,
+583.	LZ,保加利亚航空公司,保加利亚航空公司
+584.	F4,上海国际货运航空,上海国际货运航空 
+585.	F6,中国航空股份有限公司,中国航空股份有限公司
+586.	F9,边疆航空，Frontier Airlines
+587.	FC,芬兰通勤航空,Finncomm Airlines
+588.	FD,泰国亚洲航空，Thai AirAsia
+589.	FE,远东航空,Far Eastern Air Transport
+590.	FL,AirTran Airways,AirTran Airways
+591.	FT,暹粒航空公司，Siem Reap Airways International
+592.	FV,Pulkovo Aviation,Pulkovo Aviation
+593.	FW,IBEX航空，Fair
+594.	FX,联邦快递,联邦快递
+595.	FZ,迪拜航空,Flydubai
+596.	H2,Sky Airline,Sky Airline
+597.	H4,岛际航空,Inter Islands Airlines 
+598.	H5,Magadan Airlines,Magadan Airlines 	
+599.	H8,Dalavia Far East Airways,Dalavia Far East Airways
+600.	HE,Luftfahrtgesellschaft WalterHE,Luftfahrtgesellschaft Walter
+601.	HG,Niki,Niki
+603.	HW,冰岛快捷航空,Iceland Express
+604.	IA,伊拉克航空,IRAQI AIRWAYS
+605.	IN,马其顿航空公司,Macedonian Airlines
+606.	IV,福建航空公司,福建航空公司
+607.	IY,也门航空,Yemenia Yemen Airways
+608.	IZ,阿齐亚以色列航空,Arkia Israeli Airlines
+609.	IX,印度航空快递公司,印度航空快递公司
+610.	J9,几内亚航空,Guinee Airlines
+611.	JC,日航快捷,JAL Express
+612.	JD,首都航空,Beijing capital airlines
+613.	JJ,Aviogenex,Aviogenex 	
+614.	JO,日线航空,JALways
+615.	JQ,捷星航空,Jetstar Airways
+616.	JT,狮子航空,Lion Air
+617.	MB,MNG Airlines,MNG Airlines
+618.	ME,中东航空,Middle East Airlines
+619.	MT,托马斯库克航空,Thomas Cook Airlines
+620.	MV,亚美尼亚国际航空公司,Armenian International Airways
+621.	O3,顺丰航空,SF Airlines
+622.	OQ,重庆航空,重庆航空 
+623.	OV,爱沙尼亚航空,Estonian Air
+624.	OW,Executive Airlines,Executive Airlines
+625.	OX,泰国东方航空,Orient Thai Airlines
+631.	P2,UTair,UTair
+632.	P7,EastLine,EastLine
+633.	PC,斐济航空,Fiji Air
+634.	PD,波特航空 ,波特航空 
+635.	PE,Air Europe,Air Europe	
+636.	PN,西部航空,West Air
+637.	PO,美商保罗航空公司极地航空公司,Polar
+638.	PS,乌克兰国际航空,Ukraine International Airlines
+639.	Q3,PB Air,PB Air
+640.	Q5,40-Mile Air,40-Mile Air
+641.	QT,哥伦比亚坦帕航空公司,哥伦比亚坦帕航空公司 	
+642.	QZ,加拿大爵士航空,加拿大爵士航空
+643.	R2,Orenburg Airlines,Orenburg Airlines
+644.	RE,Aer Arann,Aer Arann
+645.	RF,佛罗里达西部国际航空公司,Florida West International Airways
+646.	RN,Euralair,Euralair
+647.	T4,Hellas Jet,Hellas Jet 	
+648.	T5,土库曼斯坦航空,Turkmenistan
+649.	T7,Twin Jet,Twin Jet
+650.	T9,TransMerridian Airlines,TransMerridian Airlines
+651.	TH,金鹏航空,Transmile Air Services
+652.	TL,地中海航空公司,Trans Mediterranean Airways 	
+653.	TN,大溪地航空,Air Tahiti Nui
+654.	TS,Air Transat,Air Transat
+655.	TT,Air Lithuania,Air Lithuania
+656.	TX,Air Caraibes,Air Caraibes
+//TZ 	联美航空（ATA） 	美国（已歇业）
+657. L6,马尔代夫航空公司,AIR MALDIVES
+658. LV,美佳航空公司,Mega Global Air Service
+659. KN,中国联合航空
+660. FU,中国福州航空
+661. TV,中国西藏航空
+662. O8,暹罗航空
+663. IO,伊尔航空
+
+ 

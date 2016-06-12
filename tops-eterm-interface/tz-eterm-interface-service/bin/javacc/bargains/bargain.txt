@@ -1,0 +1,90 @@
+>NFDSHASZX/20DEC14/MU   
+NETT FARE - SHASZX                                    TAX(ES) NOT INCLUDED  
+20DEC14  CNY/ADULT/EH   
+LN  CXR  OW       RT       FBC/TC      RBD MIN/MAX TRVDATE         R
+01  MU   280.00            TA          T   00D/00D 01NOV14-31DEC14 NFN:01  
+AP13                       SHA14292A
+02  MU   280.00            TA          T   00D/00D 01NOV14-31DEC14 NFN:02  
+AP13                       SHA14292A
+03  MU   350.00            TA          T   00D/00D 26OCT14-20JAN15 NFN:03  
+AP13                       SHA14275A       SHA-SZX                 NFR:03  
+04  MU   390.00            YZ21WLDL    Z           05DEC14-        NFN:04  
+AP20
+05  MU   390.00            YZ14WLDL    Z           05DEC14-        NFN:05  
+AP13
+06  MU   390.00            YZ28WLDL    Z           05DEC14-        NFN:06  
+AP27
+07  MU   390.00            YZ2MWLDL    Z           05DEC14-        NFN:07  
+AP59
+08  MU   390.00            YZ35WLDL    Z           05DEC14-        NFN:08  
+AP34
+09  MU   420.00            TA          T   00D/00D 26OCT14-20JAN15 NFN:09  
+                           SHA14267A
+10  MU   420.00            YZ07WLDL    Z           05DEC14-        NFN:10  
+AP06
+11  MU   420.00            YZ3MWLDL    Z           05DEC14-        NFN:11  
+AP89
+12  MU   470.00            YZ35WHDL    Z           05DEC14-        NFN:12  
+AP34
+13  MU   470.00            YZ2MWLDH    Z           05DEC14-        NFN:13  
+AP59
+14  MU   470.00            YZ21WLDH    Z           05DEC14-        NFN:14  
+AP20
+15  MU   470.00            YZ35WLDH    Z           05DEC14-        NFN:15  
+AP34
+16  MU   470.00            YZ28WLDH    Z           05DEC14-        NFN:16  
+AP27
+17  MU   470.00            YZ14WLDH    Z           05DEC14-        NFN:17  
+AP13
+18  MU   470.00            YZ2MWHDL    Z           05DEC14-        NFN:18  
+AP59
+19  MU   470.00            YZ21WHDL    Z           05DEC14-        NFN:19  
+AP20
+20  MU   470.00            YZ28WHDL    Z           05DEC14-        NFN:20  
+AP27
+21  MU   470.00            YZ14WHDL    Z           05DEC14-        NFN:21  
+AP13
+22  MU   490.00            T           T   00D/00D 15APR14-        NFN:22  
+23  MU   500.00            YZ07WHDL    Z           05DEC14-        NFN:23  
+AP06
+24  MU   500.00            YZ07WLDH    Z           05DEC14-        NFN:24  
+AP06
+25  MU   510.00            YZ3MWLDH    Z           05DEC14-        NFN:25
+AP89
+26  MU   510.00            YZ21WHDH    Z           05DEC14-        NFN:26  
+AP20
+27  MU   510.00            YZ28WHDH    Z           05DEC14-        NFN:27  
+AP27
+28  MU   510.00            YZ35WHDH    Z           05DEC14-        NFN:28  
+AP34
+29  MU   510.00            YZ3MWHDL    Z           05DEC14-        NFN:29  
+AP89
+30  MU   510.00            YZ2MWHDH    Z           05DEC14-        NFN:30  
+AP59
+31  MU   510.00            YZ14WHDH    Z           05DEC14-        NFN:31  
+AP13
+32  MU   550.00            YZ07WHDH    Z           05DEC14-        NFN:32  
+AP06
+33  MU   550.00            YZ3MWHDH    Z           05DEC14-        NFN:33
+AP89
+34  MU   560.00            YQTR        Q           28NOV14-        NFN:34  
+35  MU   560.00            SUPQ03      Q           28NOV14-        NFN:35  
+AP03
+36  MU   560.00            SUPQ00      Q           28NOV14-        NFN:36  
+37  MU   560.00            SUPQ03      Q           14NOV14-        NFN:37  
+AP03
+38  MU   560.00            SUPQ00      Q           14NOV14-        NFN:38  
+39  MU   560.00            SUPQ03      Q           28NOV14-        NFN:39  
+AP03
+40  MU   560.00            SUPQ00      Q           28NOV14-        NFN:40  
+41  MU   1260.00           PY07        P           28NOV14-        NFN:41  
+AP07
+42  MU   1390.00           PY05        P           28NOV14-        NFN:42  
+AP05
+43  MU   1400.00           PY100       P   00D/00D 26OCT14-20JAN15 NFN:43
+SHA14273        SHA-SZX               * NFR:43  
+44  MU   1530.00           PY03        P           28NOV14-        NFN:44  
+AP03
+45  MU   1540.00           PY110       P   00D/00D 26OCT14-20JAN15 NFN:45  
+                           SHA14273        SHA-SZX               * NFR:45  
+46  MU   2100.00           PY00        P           28NOV14-        NFN:46

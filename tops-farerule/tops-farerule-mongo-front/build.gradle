@@ -1,0 +1,18 @@
+apply plugin: 'war'
+apply plugin: 'jetty'
+
+dependencies {
+	compile libraries.servlet_api
+	compile libraries.jstl_api
+	
+	compile libraries.spring_context
+	compile libraries.spring_test
+	compile libraries.spring_webmvc
+	
+	compile libraries.framework_quality
+	compile libraries.framework_logger_core
+	
+	compile project(':tops-farerule-proto')
+	compile project(':tops-farerule-mongo-morphia')
+	compile project(':tops-farerule-translator')
+}

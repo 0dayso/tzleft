@@ -1,0 +1,51 @@
+国际机票运价
+一旅程 
+1 ORIGIN 始发地 
+2 DESTINATION 目的地 
+3 INTERMEDIATE POINTS 中间点 
+TRANFER --24小时之内不离开机场,有签证,有回程的机票 
+ STOPOVER 超过24小时 
+二类型 
+JOURNEY TAPE  
+1 OW始发地和目的地在同一个国家 
+2 RT  
+3 CIRDE TRIP 环程 
+4 OPEN JAW 中间缺口 ,来回都缺口 
+1欧洲,美国,加拿大,不用签证 
+2回程的有效期多久 
+3环程,: 有效期,有时要收费 
+三 GERGRAPHY  
+1北美,中南美,加勒比海 
+2欧洲,非洲,中东 
+3亚洲,澳大利亚(亚太地区) 
+四方向 
+1 WH 西半球 
+2 EH 东半球 
+从一区到二区 ATHANTIC OCEAN 跨太西洋 
+从三区到一区 PA 跨太平洋 
+从二区到三区 
+查国际经停点:DSG  
+
+价格的构成: TYPE GLOBALINDICATOR CARRIER RULES 
+SITI : SALE INSIDE TICKET INSIDE 
+SITO: SALE INSIDE TICKET OUTSIDE 
+SOTI  
+SOTO  :SALE OUTSIDE TICKET OUTSIDE ( PASS) 
+COC : COMMENCE MORT OF TRANSPORTAIOTN (始发地) 
+香港与大陆是两个市场,在航协里) 
+外航都用SITI 
+1ONE COUNTRY RULES 
+A USA,CA –PASS, PUBLISH FRAE 
+B SWEDEN瑞典 NORWAY挪威 DENMARK丹麦 
+2 TWO COUNTRY RULES 
+A HONGKONG MALOW  
+  TAI WANG 
+B 英格兰岛和丹麦 
+
+STA票---改期行程(在欧洲市场上可通用) SITO ,SOTI 
+FARE STRUCTURE 1NORMAL FARE –PUBLISH FARE ,SPECIAL FARE 
+NORMAL FARE: A GLOBAL INDICATOR 里程,地区 
+             B STOPOVER 经停点 
+             C TRANSFER 转机点 
+             D SEASON 淡旺季 
+             E CARRIER 运人

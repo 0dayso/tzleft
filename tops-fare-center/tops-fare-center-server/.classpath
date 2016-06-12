@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="src" path="src/test/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container" exported="true"/>
+	<classpathentry kind="src" path="/tops-fare-center-mongo" exported="true"/>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.7/acd62e31cc314266e73eebed0b6dd7ea974a0ed/slf4j-api-1.7.7-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.7/2b8019b6249bb05d81d3a3094e468753e2b21311/slf4j-api-1.7.7.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.2/decd76e2c461157804473468bbdc6b8eb6d6121b/logback-classic-1.1.2-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.2/b316e9737eea25e9ddd6d88eaeee76878045c6b2/logback-classic-1.1.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/com.travelzen/tops-ufis-client/1.0.7.RELEASE/53c77d3304e35bd30e7a7e778e060567ccb8424a/tops-ufis-client-1.0.7.RELEASE-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/com.travelzen/tops-ufis-client/1.0.7.RELEASE/14ee974ae1e2eb170e8f1883aeb4483208e4a5ce/tops-ufis-client-1.0.7.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/com.travelzen/tops-rosetta-eterm-parser/1.2.SNAPSHOT/e9ec55cf407581c1a29e940bf0f08818768f8a5/tops-rosetta-eterm-parser-1.2.SNAPSHOT-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/com.travelzen/tops-rosetta-eterm-parser/1.2.SNAPSHOT/e51c33089d2341a72bcafd9364b363cceff1349/tops-rosetta-eterm-parser-1.2.SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.1.8.RELEASE/8fa5fab28646bfbcab48880ee6eaaa72ba3d4d23/spring-core-4.1.8.RELEASE-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.1.8.RELEASE/f1e1d887f325e1fe9005a0c3e4e1b74520f19252/spring-core-4.1.8.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.1.8.RELEASE/f9df484499362972660d268c719a136d7ff10a45/spring-beans-4.1.8.RELEASE-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.1.8.RELEASE/1e9f9dfb8ee0d645da05dcb88d2e0138588d22e7/spring-beans-4.1.8.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.1.8.RELEASE/da87c04162d3b0ec7de7a63fef32dfeb29a93d79/spring-context-4.1.8.RELEASE-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.1.8.RELEASE/7a3b7141186484e57653a720ce9b58298debafad/spring-context-4.1.8.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context-support/4.1.8.RELEASE/e8c2fd28c9b9981030845eb2d6ec9a657245b348/spring-context-support-4.1.8.RELEASE-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context-support/4.1.8.RELEASE/839008a64494eb9464ab9a60b260b5972029fea2/spring-context-support-4.1.8.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.1.8.RELEASE/6a1b4782ea7ab032aa5993bfdf9ff948495ae868/spring-web-4.1.8.RELEASE-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.1.8.RELEASE/d0ac54adf8a79e652a019a9cba8fdb29ecbb2131/spring-web-4.1.8.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.1.8.RELEASE/c314cb930762cfb54ecd7214225cc38fbae1ae97/spring-webmvc-4.1.8.RELEASE-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.1.8.RELEASE/6a7904ceab9967a3b71b7b8543dd087765b17711/spring-webmvc-4.1.8.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.1.8.RELEASE/5d9f895e04ffd2edab00ea24f559044c1da2ced3/spring-tx-4.1.8.RELEASE-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.1.8.RELEASE/e4dd537d67f92ee7cb82d5cfd9dd86269cc78481/spring-tx-4.1.8.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.quartz-scheduler/quartz/2.2.1/4e9e3085eb99c52dc368d144bd3bc61e7aab87ad/quartz-2.2.1-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.quartz-scheduler/quartz/2.2.1/2bd17ec0c66d0370a932e225f52c23f3dc7cc4ce/quartz-2.2.1.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.2/502e1c764542fe747896c1dc04f023acfe0e5cbc/logback-core-1.1.2-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.2/2d23694879c2c12f125dac5076bdfd5d771cc4cb/logback-core-1.1.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/5.0.0.Alpha2/8d6e2c34232e6aa80c7dc966c3e99e522bdbba05/netty-all-5.0.0.Alpha2-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/5.0.0.Alpha2/9870d1ff5e71352077776a255f9d1494486af16/netty-all-5.0.0.Alpha2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/4a4b6d692e17846a9f3da036438a7ac491d3c814/aopalliance-1.0-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.1.8.RELEASE/f6942f47ff69151c1b8303db9ef1a2559ad8ddcf/spring-aop-4.1.8.RELEASE-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.1.8.RELEASE/408fb870d35dbcfa0a2860d10692be45f543dc72/spring-aop-4.1.8.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.1.8.RELEASE/2f4129505d87084cefda3cd3f9475bc23ae32efc/spring-expression-4.1.8.RELEASE-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.1.8.RELEASE/cfd1574b07fdfea85ed8370b688c9daa0294ce87/spring-expression-4.1.8.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/f2d8698c46d1167ff24b06a840a87d91a02db891/commons-io-2.4-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/bdacf4f82ce9b29cd474bfde2e91eeb0ca623d28/config-1.2.1-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.14/4c6bcedc3efa772a5ae1c2fd01efee8e4d15edac/snakeyaml-1.14-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.14/c2df91929ed06a25001939929bff5120e0ea3fd4/snakeyaml-1.14.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/677abe279b68c5e7490d6d50c6951376238d7d3e/log4j-1.2.17-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/jline/jline/0.9.94/7ac7b49164e4f9d250309c70caee645151b87e46/jline-0.9.94-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/jline/jline/0.9.94/99a18e9a44834afdebc467294e1138364c207402/jline-0.9.94.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/io.netty/netty/3.7.0.Final/92d6795b502e5194f84c5d1fd05c39800413fe53/netty-3.7.0.Final-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/io.netty/netty/3.7.0.Final/7a8c35599c68c0bf383df74469aa3e03d9aca87/netty-3.7.0.Final.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.apache.zookeeper/zookeeper/3.4.6/10cb14f3893f8bdcaf4e2619a9a1f6b9cedec6b7/zookeeper-3.4.6-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.apache.zookeeper/zookeeper/3.4.6/1b2502e29da1ebaade2357cd1de35a855fa3755/zookeeper-3.4.6.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/ad97fe8faaf01a3d3faacecd58e8fa6e78a973ca/guava-18.0-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.apache.curator/curator-client/2.7.0/7a65e9e0150d74096c67a46c42ed71ac8a9a98cc/curator-client-2.7.0-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.apache.curator/curator-client/2.7.0/c3232ff89e991501b98e21dc29303cbb227ad57b/curator-client-2.7.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.apache.curator/curator-framework/2.7.0/834822a18b489dcc47afac97f2e8c05b168ad689/curator-framework-2.7.0-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.apache.curator/curator-framework/2.7.0/c586c41d21278779d7c14ac3c95cba7cf553c7d2/curator-framework-2.7.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.apache.curator/curator-recipes/2.7.0/91e9d9d35417fd4b8024d4db3e98aca30c27c901/curator-recipes-2.7.0-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.apache.curator/curator-recipes/2.7.0/b8f8980c40ebe86f1eb693f282faa27a65a95379/curator-recipes-2.7.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-core-asl/1.9.13/6ed53c5ce78344e14296aa47769d67b10e1c7b2c/jackson-core-asl-1.9.13-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-core-asl/1.9.13/3c304d70f42f832e0a86d45bd437f692129299a4/jackson-core-asl-1.9.13.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-mapper-asl/1.9.13/83113901bc2a377d698ccea35ad842786f37c6ad/jackson-mapper-asl-1.9.13-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-mapper-asl/1.9.13/1ee2f2bed0e5dd29d1cb155a166e6f8d50bbddb7/jackson-mapper-asl-1.9.13.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.apache.curator/curator-x-discovery/2.7.0/d0b9f449beca8d7e5c025968d1b93ee5e9c82cac/curator-x-discovery-2.7.0-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.apache.curator/curator-x-discovery/2.7.0/b73905510f3bbaaded82bee06e39c060d3e7d9ba/curator-x-discovery-2.7.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/ab3976d4574c48d22dc1abf6a9e8bd0fdf928223/javax.servlet-api-3.1.0-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.7.2/56ab34b488e1c1f67b95c1980839ed643963b34b/aspectjweaver-1.7.2-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.7.2/d3b191a99d2c34dfd5311ef3110f096f5bc0a10e/aspectjweaver-1.7.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.perf4j/perf4j/0.9.16/14b029a24faabf012c17ffc8e573f6a2f5065f51/perf4j-0.9.16-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.perf4j/perf4j/0.9.16/a387572ec3d8399aa894662cfd63babb8e161f43/perf4j-0.9.16.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.7.2/dfb378a12848d9a0b53c7da747ee880e307726ea/aspectjrt-1.7.2-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.7.2/2704a4284193598dd42f1dd4ff1ea3e757c875e9/aspectjrt-1.7.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.8.2/65dd2b998571ea61a3cee68c99a1dde729b14a7e/joda-time-2.8.2-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.8.2/d27c24204c5e507b16fec01006b3d0f1ec42aed4/joda-time-2.8.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.javatuples/javatuples/1.2/a7495f5370bdfcf46c6f3c6ed0badf52877aa467/javatuples-1.2-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.javatuples/javatuples/1.2/507312ac4b601204a72a83380badbca82683dd36/javatuples-1.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.1/fa095ef874374e5b2a11f8b06c26a5d68c7cb3a4/commons-collections-3.2.1-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.1/761ea405b9b37ced573d2df0d1e3a4e0f9edc668/commons-collections-3.2.1.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.0.8/3940d1ca998744cca98da76c3d01974c1c54149f/plexus-utils-3.0.8-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.0.8/faba5d28a07fcde50c8c26d3f002774acf11843e/plexus-utils-3.0.8.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-classworlds/2.2.2/b5e33106279bbc09be9078890478112ebe3623ef/plexus-classworlds-2.2.2-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-classworlds/2.2.2/3a2bad2b58c1ca765d3f471cea8c1655d70fdfd9/plexus-classworlds-2.2.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging-api/1.1/7d4cf5231d46c8524f9b9ed75bb2d1c69ab93322/commons-logging-api-1.1.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.apache.xbean/xbean-reflect/3.4/77c8a006107cb5520096d629aedd0ff733e11fe1/xbean-reflect-3.4-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.apache.xbean/xbean-reflect/3.4/26fd55dceb037f4789b399b22874d74f4d2db66f/xbean-reflect-3.4.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-container-default/1.5.5/5a8d85ede02b1a32f79f8b17f0fe2077d952de2d/plexus-container-default-1.5.5-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-container-default/1.5.5/265fa2851d31c2e2177859a518987595efe146b/plexus-container-default-1.5.5.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.unidal.framework/foundation-service/2.1.0/e049fcde48ef9f5805c5c55eb324b12d53613777/foundation-service-2.1.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.jboss.netty/netty/3.2.7.Final/ec99533fbd07fa246b2c8bb74e6ae39ce4ef9d18/netty-3.2.7.Final-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.jboss.netty/netty/3.2.7.Final/1a1c5dde827576f3730bf6f3d7b389e770b90aaa/netty-3.2.7.Final.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/com.dianping.cat/cat-client/1.2.5/d15fb6fd76e5e56501b5f8da0e24589b4bfb7187/cat-client-1.2.5-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/com.dianping.cat/cat-client/1.2.5/e51667d172b1abde88369ff64a30941fc3a91cbf/cat-client-1.2.5.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/d2a489573c0ed2c4942b3660decad5d65087b406/commons-lang3-3.3.2-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.1.29/88e6a7eef5af3befcbf7b24453169bee9479d3aa/fastjson-1.1.29-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.1.29/6396d676899937291ccc6419b1852267e21faba2/fastjson-1.1.29.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.7/b5a646b81b899e930f8600c5f45766dd82743d93/jcl-over-slf4j-1.7.7-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.7/56003dcd0a31deea6391b9e2ef2f2dc90b205a92/jcl-over-slf4j-1.7.7.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.4/2b8c4b3035e45520ef42033e823c7d33e4b4402c/commons-lang-2.4-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.4/16313e02a793435009f1e458fa4af5d879f6fb11/commons-lang-2.4.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.javaruntype/javaruntype/1.2/269ea327288c46afdc4f771c9b4ad071b11ddf59/javaruntype-1.2-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.javaruntype/javaruntype/1.2/d7595d6aa87b56ad207961157d15b2c59f0afb53/javaruntype-1.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.op4j/op4j/1.2/5d9b3df6f4cee00e5463d6c040ec0a619bf355e7/op4j-1.2-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.op4j/op4j/1.2/408aa6e58a64cfd184273144b702cc24118a5c80/op4j-1.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.4/b98251e078d1809f889324fe90dbc4996919c02a/gson-2.4-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.4/695b63d702f505b9b916e02272e3b6381bade7f/gson-2.4.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/com.travelzen/framework-core/1.2.13.0.SNAPSHOT/84cd10c35c96dded47a318544235cdf7ce58dae3/framework-core-1.2.13.0.SNAPSHOT-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/com.travelzen/framework-core/1.2.13.0.SNAPSHOT/486f16a87e884d0d29e9f448adebca4e7bd6593d/framework-core-1.2.13.0.SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/net.sf.ehcache/ehcache-core/2.6.5/f7ecf73a614d51775f5feb33e56f3588ded1e5ca/ehcache-core-2.6.5-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/net.sf.ehcache/ehcache-core/2.6.5/3dfb4152fb976c8eeae6dd0dca402c0a8e4528be/ehcache-core-2.6.5.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-infrastructure/2.1.9.RELEASE/1a56ad9035237ea06fc37355e0623066513a6f36/spring-batch-infrastructure-2.1.9.RELEASE-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-infrastructure/2.1.9.RELEASE/a3571fc64df4270bd75fd4f6255c338b5d9e3366/spring-batch-infrastructure-2.1.9.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.codehaus.jettison/jettison/1.1/6e5ebf802c909bcef2d7e3275c64b474467353b5/jettison-1.1-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.codehaus.jettison/jettison/1.1/1a01a2a1218fcf9faa2cc2a6ced025bdea687262/jettison-1.1.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-core/2.1.9.RELEASE/f591aeaf6129369b18683ebfffc6e059968d50eb/spring-batch-core-2.1.9.RELEASE-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-core/2.1.9.RELEASE/55ab028691982e599514bcee511f17be88a73438/spring-batch-core-2.1.9.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1/3697e9f67a2ed7ac5f589cff30f21173299440/activation-1.1-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1/e6cb541461c2834bdea3eb920f1884d1eb508b50/activation-1.1.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/javax.mail/mail/1.4.7/bb76e5678cdb3e7488bb5578a8461e82fba5fe36/mail-1.4.7-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/javax.mail/mail/1.4.7/9add058589d5d85adeb625859bf2c5eeaaedf12d/mail-1.4.7.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.freemarker/freemarker/2.3.20/ed2c6f2a00062d3ddf8d86870a047e50a5355e65/freemarker-2.3.20-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.freemarker/freemarker/2.3.20/5ad6bea46b5af666d88c260c8acc6a03408723c8/freemarker-2.3.20.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/3.2.9.RELEASE/a7393bc299c4f6ea9d6324eb293920ac936c421a/spring-test-3.2.9.RELEASE-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/3.2.9.RELEASE/52719fdd2e959b5b89ea361334d6c022a6d1d04d/spring-test-3.2.9.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/com.travelzen/framework-spring/1.2.13.0.SNAPSHOT/89a3ffba041b87258ac2afd724311f635e012628/framework-spring-1.2.13.0.SNAPSHOT-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/com.travelzen/framework-spring/1.2.13.0.SNAPSHOT/c7e1c10b0adc984a936bcfbd09fdc39ff375d9dd/framework-spring-1.2.13.0.SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/com.github.adyliu/zkclient/2.1.1/2c14fd8d5921f411e31cf4009d113c73beb56eef/zkclient-2.1.1-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/com.github.adyliu/zkclient/2.1.1/4d01c94aed2c1ec1b1f0b42fc9809efa4f55719c/zkclient-2.1.1.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.codehaus.janino/commons-compiler/2.7.6/9b4872aac6baca858a8ca0466d5fb38aa686d7b6/commons-compiler-2.7.6-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.codehaus.janino/commons-compiler/2.7.6/b71e76d942b33dfa26e4e3047ff2a774d1f917b4/commons-compiler-2.7.6.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.codehaus.janino/janino/2.7.6/ab3bfafee7e167018f807d0a1e39b147e72700c5/janino-2.7.6-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.codehaus.janino/janino/2.7.6/37fde5de7edd5d7ebe075f03f4c083df2ac73dd8/janino-2.7.6.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/com.travelzen/framework-logger-core/1.2.13.0.SNAPSHOT/a12ecb701eb09205266843a73278d7de96713877/framework-logger-core-1.2.13.0.SNAPSHOT-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/com.travelzen/framework-logger-core/1.2.13.0.SNAPSHOT/aa24ec67b3c005da729f4178f25b364bd391da62/framework-logger-core-1.2.13.0.SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/com.travelzen/framework-config/1.2.13.0.SNAPSHOT/7a47f6f0ff2123fcf30c70936ce332ccdeaecd13/framework-config-1.2.13.0.SNAPSHOT-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/com.travelzen/framework-config/1.2.13.0.SNAPSHOT/1237564fca9cb4bd3a1793a31ae4bba7eac0df05/framework-config-1.2.13.0.SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.2.1/5d4c06bea2b086d18d19d1f2a3e8f18acbfe0e9e/groovy-all-2.2.1-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.2.1/7ae565d50d24167c4e5d74b96f4126d4c56f16f/groovy-all-2.2.1.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/postgresql/postgresql/9.1-901.jdbc4/8e9d82a070f2b4d9e8561a567bf4daca36eed4e2/postgresql-9.1-901.jdbc4-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/postgresql/postgresql/9.1-901.jdbc4/153f2f92a786f12fc111d0111f709012df87c808/postgresql-9.1-901.jdbc4.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/com.thoughtworks.proxytoys/proxytoys/1.0/de95fbe8697606c339620e1301e3cea582e5776/proxytoys-1.0-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/com.thoughtworks.proxytoys/proxytoys/1.0/d22baee6d1b98dc38a6a428f774fd9e5b2ccf4af/proxytoys-1.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/cglib/cglib-nodep/2.2.2/fc1558bebc50419cdb55fbffd81c290e21f058c1/cglib-nodep-2.2.2-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/cglib/cglib-nodep/2.2.2/d456bb230c70c0b95c76fb28e429d42f275941/cglib-nodep-2.2.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/com.github.jmkgreen.morphia/morphia/1.2.3/1ef21529234f9dbeda8b18429ce1f3e658b0264e/morphia-1.2.3-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/com.github.jmkgreen.morphia/morphia/1.2.3/19ea525a925c167d9512b595a3573e4630eb9b97/morphia-1.2.3.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.0.0.GA/7a561191db2203550fbfa40d534d4997624cd369/validation-api-1.0.0.GA-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.0.0.GA/b6bd7f9d78f6fdaa3c37dae18a4bd298915f328e/validation-api-1.0.0.GA.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/com.github.jmkgreen.morphia/morphia-validation/1.2.3/c12f3448b97a9cd013aa122b5fc2a9c1be9f4259/morphia-validation-1.2.3-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/com.github.jmkgreen.morphia/morphia-validation/1.2.3/e940273979e7e33c17d5db4e2b346d4d1f6279aa/morphia-validation-1.2.3.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.mongodb/mongo-java-driver/3.1.0/d35c4409f471b0c9bcf875ef7795c20ddc1dfe14/mongo-java-driver-3.1.0-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.mongodb/mongo-java-driver/3.1.0/67d91362cf1acbcb20f90b4fb801f03abe4ba1d7/mongo-java-driver-3.1.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/com.travelzen/framework-mongo-support/1.2.13.0.SNAPSHOT/3ccd824d556b204e8c02d7412c7b1c90e5352492/framework-mongo-support-1.2.13.0.SNAPSHOT-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/com.travelzen/framework-mongo-support/1.2.13.0.SNAPSHOT/8d3f5ff1392acd2a9bdf0b3719360240d272d1b6/framework-mongo-support-1.2.13.0.SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/e45c96d3b55bd8b6be5da2286e7cad918e626c0b/ibatis-sqlmap-2.3.4.726-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/d5dcd02aaa7ba1a226e687bd4c366fe084d6e2cc/ibatis-sqlmap-2.3.4.726.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/commons-pool/commons-pool/1.6/9376f5559455b8fe1b15308d3ad9c545f6905b1a/commons-pool-1.6-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/commons-pool/commons-pool/1.6/4572d589699f09d866a226a14b7f4323c6d8f040/commons-pool-1.6.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/commons-dbcp/commons-dbcp/1.4/9b076ff231434d5403be6599a1347019b12c0def/commons-dbcp-1.4-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/commons-dbcp/commons-dbcp/1.4/30be73c965cc990b153a100aaaaafcf239f82d39/commons-dbcp-1.4.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.jdom/jdom/2.0.2/2c0614e33230394e42f5cfe55c20d5ae8949c108/jdom-2.0.2-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.jdom/jdom/2.0.2/d06c71e0df0ac4b94deb737718580ccce22d92e8/jdom-2.0.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/3.2.9.RELEASE/34a438af17fd561c7cdf4165fba92de4262caa4f/spring-jdbc-3.2.9.RELEASE-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/3.2.9.RELEASE/8c2bfa6d91de268c219e569348aeab006e4df4c1/spring-jdbc-3.2.9.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/3.2.9.RELEASE/1aa9b885d0ce6a475ed7f3bae2b9cef029513ed3/spring-orm-3.2.9.RELEASE-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/3.2.9.RELEASE/24d1aa9860d3cc94454bfecd42a69a7bb33f1b4d/spring-orm-3.2.9.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/com.mchange/mchange-commons-java/0.2.6/5062202566edfe5c186249eff321de2bc8bb5005/mchange-commons-java-0.2.6-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/com.mchange/mchange-commons-java/0.2.6/cc7b8f89924ff61e8a51bd665ed025442aecdf28/mchange-commons-java-0.2.6.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis-spring/1.2.2/37d4385e146df3794aab4f773ac709e6cb83517d/mybatis-spring-1.2.2-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis-spring/1.2.2/1e40a7f5373e4242075a1d386817e7dd49b1697d/mybatis-spring-1.2.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/3.2.5.RELEASE/50c1f1864218f083538f40a936abf9df82e212b1/spring-security-core-3.2.5.RELEASE-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/3.2.5.RELEASE/d5db43e696a02186ab7e18f8c9d99afbde94bd77/spring-security-core-3.2.5.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/c3p0/c3p0/0.9.1.2/19c1ce22da84ce300fcbd59590601f78d3d99e20/c3p0-0.9.1.2-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/c3p0/c3p0/0.9.1.2/4ea71601f844c4b90d22195bbdb58979281bb8b6/c3p0-0.9.1.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/com.travelzen/framework-dao-base/1.2.13.0.SNAPSHOT/a49ffa1660141a045bc5735390c88b70f26e25c5/framework-dao-base-1.2.13.0.SNAPSHOT-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/com.travelzen/framework-dao-base/1.2.13.0.SNAPSHOT/af7f5f878605e8017aa810e89065efa9063b0e2f/framework-dao-base-1.2.13.0.SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.2/6c5459816530a1962ac18cd315cc775b1b384329/commons-cli-1.2-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.2/2bf96b7aa8b611c177d329452af1dc933e14501c/commons-cli-1.2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/com.travelzen/framework-logger/1.2.13.0.SNAPSHOT/4f0d93576ce1ae8038f6cdc81e88f0cf747e9104/framework-logger-1.2.13.0.SNAPSHOT-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/com.travelzen/framework-logger/1.2.13.0.SNAPSHOT/1b42991f6d626603a7a9ad26e9154c018f992a1e/framework-logger-1.2.13.0.SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-launcher/1.9.0/ba0b3aa3a2358d8251bdd587840100abc461ace9/ant-launcher-1.9.0-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-launcher/1.9.0/a76484a4e3a893dd0ee018afef34f74df8e4ef6c/ant-launcher-1.9.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant/1.9.0/3a6639ad333e5fda7d6bfd5f89b01ba1a7f9f3cb/ant-1.9.0-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant/1.9.0/d667bc2c030a338720bfcf794d2189ea5c663b9e/ant-1.9.0.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.0.b2/d8525661c5a0a05702fa41873d250d135031ec25/xml-apis-1.0.b2-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.0.b2/3136ca936f64c9d68529f048c2618bd356bf85c9/xml-apis-1.0.b2.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/a8e7149359255f43e0e5e3b1837948f9ed5861fb/dom4j-1.6.1-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/com.travelzen/tops-ufis-common/1.0.7.RELEASE/e6dd42e4be3e3097cb19f293a414cc3f75ead4b9/tops-ufis-common-1.0.7.RELEASE-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/com.travelzen/tops-ufis-common/1.0.7.RELEASE/ffe7d714fa5952ff00c9902d55a29a24fb05c09/tops-ufis-common-1.0.7.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/com.travelzen/framework-quality/1.2.13.0.SNAPSHOT/17e8af072b8339c32619a42ac286db543d83adcd/framework-quality-1.2.13.0.SNAPSHOT-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/com.travelzen/framework-quality/1.2.13.0.SNAPSHOT/44d9b511aea9dbf5f0d7138a48bd90394bf777d8/framework-quality-1.2.13.0.SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis/3.2.5/f94a850e2f16dfca166a5fce5bb67ae0fda1a9a6/mybatis-3.2.5-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.mybatis/mybatis/3.2.5/70e8be7718eb1a2b46d321533f0200b0e552aa27/mybatis-3.2.5.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/com.jolbox/bonecp/0.8.0.RELEASE/f8b6d5414837c881740594109e0400dfb65d4c0b/bonecp-0.8.0.RELEASE-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/com.jolbox/bonecp/0.8.0.RELEASE/cec24ee9345b3678472bb1b8fdd6aa6b9428beb8/bonecp-0.8.0.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/4.1.0.Final/5aedf89618da0bfd96c6ebb9ff88cb1876500d17/hibernate-validator-4.1.0.Final-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/4.1.0.Final/785cceeb0b0dbd03367f45cd60eb26cd48167640/hibernate-validator-4.1.0.Final.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/com.travelzen/tops-ufis-database/1.0.7.RELEASE/bd2ea9677ae91daaa620d2b4b937e61da268218c/tops-ufis-database-1.0.7.RELEASE-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/com.travelzen/tops-ufis-database/1.0.7.RELEASE/ab8fec1971329e4e97968fc9e41607c08c7a33ee/tops-ufis-database-1.0.7.RELEASE.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/yiming/.gradle/caches/modules-2/files-2.1/com.travelzen/tops-rosetta-eterm-common/1.2.SNAPSHOT/1860a7cd16066089497c44192807b8379e470f8e/tops-rosetta-eterm-common-1.2.SNAPSHOT-sources.jar" kind="lib" path="/home/yiming/.gradle/caches/modules-2/files-2.1/com.travelzen/tops-rosetta-eterm-common/1.2.SNAPSHOT/e4b89088dcc168c9923168652d7cbb5ee9fe0505/tops-rosetta-eterm-common-1.2.SNAPSHOT.jar" exported="true">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+</classpath>

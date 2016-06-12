@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Implementation-Title: tops-farerule-jpecker-client
+Implementation-Version: unspecified
+Built-By: yiming
+Built-JDK: 1.7.0_45
+Implementation-Timestamp: 2016-03-15T09:22:59+0800
+

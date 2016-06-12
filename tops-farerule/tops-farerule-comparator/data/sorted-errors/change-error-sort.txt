@@ -1,0 +1,17 @@
+KE : 15
+AF : 11
+AC : 9
+CA : 6
+UA : 6
+BR : 5
+OZ : 5
+JL : 4
+B7 : 3
+US : 2
+UO : 2
+SQ : 2
+HO : 1
+MH : 1
+AA : 1
+MF : 1
+LH : 1

@@ -1,0 +1,1 @@
+gradle tz-eterm-interface-common:upload tz-eterm-interface-client:upload  -x javadoc

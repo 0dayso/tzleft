@@ -1,0 +1,11 @@
+group = 'com.travelzen'
+version = "${versions.tops_rosetta_eterm}"
+
+dependencies {
+
+	compile project(':tops-rosetta-eterm-common')
+	
+	compile libraries.javatuples
+	compile libraries.jodatime
+
+}

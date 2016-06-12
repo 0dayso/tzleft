@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Implementation-Title: tz-eterm-interface-web
+Implementation-Version: unspecified
+Built-By: yiming
+Built-JDK: 1.7.0_45
+Implementation-Timestamp: 2016-05-31T16:13:36+0800
+

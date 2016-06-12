@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd"
+       default-lazy-init="false">
+
+
+    <bean id="jmxAttributeSource"
+          class="org.springframework.jmx.export.annotation.AnnotationJmxAttributeSource"/>
+    <!-- 使用注解元数据创建管理接口 -->
+    <bean id="assembler"
+          class="org.springframework.jmx.export.assembler.MetadataMBeanInfoAssembler">
+        <property name="attributeSource" ref="jmxAttributeSource"/>
+    </bean>
+    <!-- 从注解中得到ObjectName  -->
+    <bean id="namingStrategy"
+          class="org.springframework.jmx.export.naming.MetadataNamingStrategy">
+        <property name="attributeSource" ref="jmxAttributeSource"/>
+    </bean>
+    <bean id="exporter" class="org.springframework.jmx.export.MBeanExporter">
+        <property name="assembler" ref="assembler"/>
+        <property name="namingStrategy" ref="namingStrategy"/>
+        <property name="autodetect" value="true"/>
+        <!-- <property name="notificationListenerMappings">
+             <map>
+                 <entry key="etermface.jmx:name=blockManager">
+                     <bean class="OperationLogNotificationListener"/>
+                 </entry>
+             </map>
+         </property>-->
+
+
+        <property name="notificationListeners">
+            <list>
+                <bean class="org.springframework.jmx.export.NotificationListenerBean">
+                    <constructor-arg ref="operationLogNotificationListener"/>
+                    <property name="mappedObjectNames">
+                        <list>
+                            <bean class="javax.management.ObjectName">
+                                <constructor-arg value="eterm.manage:name=blockManager"/>
+                            </bean>
+                        </list>
+                    </property>
+                    <property name="handback">
+                        <bean class="java.lang.String">
+                            <constructor-arg value="This could be anything..."/>
+                        </bean>
+                    </property>
+                    <property name="notificationFilter" ref="operationLogNotificationListener"/>
+                </bean>
+            </list>
+        </property>
+    </bean>
+
+    <!--&lt;!&ndash;rmi方式暴露&ndash;&gt;
+    &lt;!&ndash;注册端口 我使用的是9992&ndash;&gt;
+    <bean id="registry" class="org.springframework.remoting.rmi.RmiRegistryFactoryBean" destroy-method="destroy">
+        <property name="port" value="9992"/>
+    </bean>
+    &lt;!&ndash;配置服务连接connector via rmi &ndash;&gt;
+    <bean id="serverConnector" class="org.springframework.jmx.support.ConnectorServerFactoryBean" depends-on="registry"
+          lazy-init="false">
+        <property name="objectName" value="connector:name=rmi"/>
+        &lt;!&ndash;前面为rmi的通讯端口，后面为注册端口，固定主要是为了防止防火墙拦截&ndash;&gt;
+        <property name="serviceUrl" value="service:jmx:rmi://localhost:30000/jndi/rmi://localhost:30001/jmxrmi"/>
+    </bean>-->
+</beans>

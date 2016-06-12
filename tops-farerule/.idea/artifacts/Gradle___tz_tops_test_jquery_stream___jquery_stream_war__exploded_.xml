@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : tz.tops-test:jquery-stream : jquery-stream.war (exploded)">
+    <output-path>$PROJECT_DIR$/build/classes/artifacts/jquery-stream/exploded/jquery-stream.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$/../tops-test/jquery-stream" />
+    </properties>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="jquery-stream/web/Web Gradle : jquery-stream.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jquery-stream" />
+          <element id="dir-copy" path="$PROJECT_DIR$/../tops-test/jquery-stream/target/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-websocket/8.1.10.v20130312/c64c081cd4f609aff59eeeaecb871ad32ca93713/jetty-websocket-8.1.10.v20130312.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/8.1.10.v20130312/d198a8ad8ea20b4fb74c781175c48500ec2b8b7a/jetty-util-8.1.10.v20130312.jar" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/build/classes/artifacts/jquery-stream/exploded/jquery-stream.war/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

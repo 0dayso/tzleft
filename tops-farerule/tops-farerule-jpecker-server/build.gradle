@@ -1,0 +1,16 @@
+apply plugin: 'war'
+apply plugin: 'jetty'
+
+dependencies {
+	compile libraries.thrift
+	compile libraries.servlet_api
+	compile libraries.jstl_api
+	
+	compile libraries.framework_quality
+	compile libraries.framework_logger_core
+
+	compile project(':tops-farerule-proto')
+	compile project(':tops-farerule-jpecker')
+	compile project(':tops-farerule-mongo-morphia')
+	compile project(':tops-farerule-exchange')
+}

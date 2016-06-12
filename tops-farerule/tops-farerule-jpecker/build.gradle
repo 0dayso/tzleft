@@ -1,0 +1,20 @@
+group = 'com.travelzen'
+version = "${versions.tops_farerule}"
+
+dependencies {
+    compile libraries.jcl_over_slf4j
+	compile libraries.log4j_over_slf4j
+	compile libraries.logback
+	
+	compile libraries.spring_context
+	
+	compile libraries.framework_core
+	compile libraries.framework_logger_core
+    
+    compile libraries.tops_fare_proto
+    compile "com.travelzen:dandelion:1.2.20.3.RELEASE"
+    compile project(':tops-farerule-proto')
+    compile project(':tops-farerule-mongo-morphia')
+    compile project(':tops-farerule-translator')
+    compile project(':tops-farerule-exchange')
+}

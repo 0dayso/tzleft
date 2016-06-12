@@ -1,0 +1,26 @@
+configurations {
+    compile.exclude module: "commons-logging"
+    compile.exclude module: "slf4j-log4j12"
+}
+
+dependencies {
+    compile project(':tz-eterm-interface-common')
+    
+    compile "org.javatuples:javatuples:1.2"
+    compile "net.sf.jacob-project:jacob:1.14.3"
+    compile "com.itextpdf:itextpdf:5.4.1"
+    compile "com.thoughtworks.xstream:xstream:1.4.4"
+    compile "net.sf.json-lib:json-lib:2.4:jdk15"
+    compile "it.unimi.dsi:fastutil:6.4.4"
+    compile "it.unimi.dsi:dsiutils:2.0.7"
+    compile "net.sf.trove4j:trove4j:3.0.3"
+    compile "org.yaml:snakeyaml:1.12"
+    compile "org.freemarker:freemarker:2.3.19"
+    compile "commons-codec:commons-codec:1.6"
+    compile "jdom:jdom:1.1"
+    compile "org.perf4j:perf4j:0.9.16"
+    
+    compile libraries.tops_ufis_client
+    compile libraries.tops_flight_common
+    compile libraries.tops_rosetta_eterm_parser
+}

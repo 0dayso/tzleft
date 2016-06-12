@@ -1,0 +1,13 @@
+include ':tops-farerule-proto'
+include ':tops-farerule-jpecker'
+include ':tops-farerule-jpecker-server'
+include ':tops-farerule-jpecker-client'
+include ':tops-farerule-cpecker'
+include ':tops-farerule-comparator'
+include ':tops-farerule-translator'
+include ':tops-farerule-exchange'
+
+include ':tops-farerule-mongo-morphia'
+include ':tops-farerule-mongo-front'
+
+include ':tops-farerule-airsorter'

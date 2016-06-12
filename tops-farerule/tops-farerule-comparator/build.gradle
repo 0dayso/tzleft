@@ -1,0 +1,10 @@
+dependencies {
+    compile libraries.jcl_over_slf4j
+	compile libraries.log4j_over_slf4j
+	compile libraries.logback
+
+	compile project(':tops-farerule-proto')
+	compile project(':tops-farerule-jpecker')
+	compile project(':tops-farerule-cpecker')
+	compile project(':tops-farerule-translator')
+}

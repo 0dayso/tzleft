@@ -1,0 +1,12 @@
+group = 'com.travelzen'
+version = "${versions.tops_farerule}"
+
+dependencies {
+	compile libraries.thrift
+	
+	compile libraries.framework_redis
+	compile libraries.framework_thrift
+	
+	compile libraries.tops_fare_proto
+	compile project(':tops-farerule-proto')
+}

@@ -1,0 +1,10 @@
+dependencies {
+    compile libraries.jcl_over_slf4j
+	compile libraries.log4j_over_slf4j
+	compile libraries.logback
+	
+	compile libraries.framework_core
+	
+	compile project(':tops-farerule-proto')
+	compile project(':tops-farerule-translator')
+}

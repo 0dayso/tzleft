@@ -1,0 +1,2 @@
+group = 'com.travelzen'
+version = "${versions.tops_rosetta_eterm}"

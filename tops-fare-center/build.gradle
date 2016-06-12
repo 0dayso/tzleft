@@ -1,0 +1,96 @@
+apply from: 'libraries.gradle'
+
+allprojects {
+
+	group = 'com.travelzen'
+
+	apply plugin: 'java'
+	apply plugin: 'eclipse'
+	apply plugin: 'eclipse-wtp'
+	apply plugin: 'idea'
+	apply plugin: 'maven'
+
+	sourceCompatibility = '1.7'
+	targetCompatibility = '1.7'
+
+	repositories {
+		maven { url 'http://192.168.160.187:8081/nexus/content/groups/public' }
+		maven { url 'https://maven.alfresco.com/nexus/content/groups/public' }
+		maven { url 'https://raw.github.com/dianping/cat/mvn-repo' }
+		mavenCentral()
+		mavenLocal()
+	}
+	
+	eclipse {
+		classpath {
+			downloadSources=true
+		}
+	}
+
+	dependencies {
+		compile libraries.slf4j
+		compile libraries.logback
+
+		testCompile libraries.junit
+	}
+	
+	tasks.withType(War) {
+		manifest {
+			attributes("Implementation-Title": project.name,
+			"Implementation-Version": project.version,
+			"Built-By": System.getProperty('user.name'),
+			"Built-JDK": System.getProperty('java.version'),
+			"Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+			)
+		}
+	}
+
+	tasks.withType(Jar) {
+		manifest {
+			attributes("Implementation-Title": project.name,
+			"Implementation-Version": project.version,
+			"Built-By": System.getProperty('user.name'),
+			"Built-JDK": System.getProperty('java.version'),
+			"Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+			)
+		}
+	}
+
+	task sourcesJar(type: Jar, dependsOn: classes) {
+		classifier = 'sources'
+		from sourceSets.main.allSource
+	}
+
+	task javadocJar(type: Jar, dependsOn: javadoc) {
+		classifier = 'javadoc'
+		from javadoc.destinationDir
+	}
+
+	artifacts {
+		archives sourcesJar
+		archives javadocJar
+	}
+
+	tasks.withType(Compile) {
+		options.encoding = 'UTF-8'
+	}
+
+	tasks.withType(Javadoc) {
+		options.encoding = 'UTF-8'
+	}
+	
+	uploadArchives {
+		repositories {
+			mavenDeployer {
+				repository(url: 'http://192.168.160.187:8081/nexus/content/repositories/releases') {
+					authentication(userName: "admin", password: "tznexus")
+				}
+				snapshotRepository(url: 'http://192.168.160.187:8081/nexus/content/repositories/snapshots') {
+					authentication(userName: "admin", password: "tznexus")
+				}
+			}
+		}
+	}
+
+}
+

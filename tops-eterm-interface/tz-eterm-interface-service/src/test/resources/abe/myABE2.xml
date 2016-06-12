@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="gb2312"?>
+<CRS.CommandSet.AV1.2>
+	<Item>
+		<ID>0</ID>
+		<FlightID>00</FlightID>
+		<ElementNo>1</ElementNo>
+		<FlightType>S</FlightType>
+		<Carrier>MU</Carrier>
+		<FlightNo>3929</FlightNo>
+		<ShareCarrier>HO</ShareCarrier>
+		<ShareFlight>1123</ShareFlight>
+		<BoardPoint>SHA</BoardPoint>
+		<OffPoint>CSX</OffPoint>
+		<BoardPointAT>T2</BoardPointAT>
+		<OffPointAT>T2</OffPointAT>
+		<FlightTime>1:45</FlightTime>
+		<DepartureDate>2013-10-15</DepartureDate>
+		<DepartureTime>07:40</DepartureTime>
+		<ArrivalDate>2013-10-15</ArrivalDate>
+		<ArrivalTime>09:25</ArrivalTime>
+		<Aircraft>320</Aircraft>
+		<AirportTax>50</AirportTax>
+		<Meal>B</Meal>
+		<ViaPort>0</ViaPort>
+		<ETicket>E</ETicket>
+		<ASR>^</ASR>
+		<LinkLevel>DS#</LinkLevel>
+		<Classes>
+			<Class Code="Y" Ext=" " Seat="A" Price="0" />
+			<Class Code="B" Ext=" " Seat="S" Price="0" />
+			<Class Code="M" Ext=" " Seat="S" Price="0" />
+			<Class Code="E" Ext=" " Seat="S" Price="0" />
+			<Class Code="H" Ext=" " Seat="S" Price="0" />
+			<Class Code="K" Ext=" " Seat="S" Price="0" />
+		</Classes>
+		<YClassPrice>0</YClassPrice>
+		<FuelSurTax>0</FuelSurTax>
+		<TPM>964</TPM>
+	</Item>
+	<Item>
+		<ID>1</ID>
+		<FlightID>01</FlightID>
+		<ElementNo>2</ElementNo>
+		<FlightType>N</FlightType>
+		<Carrier>MU</Carrier>
+		<FlightNo>5357</FlightNo>
+		<ShareCarrier></ShareCarrier>
+		<ShareFlight></ShareFlight>
+		<BoardPoint>SHA</BoardPoint>
+		<OffPoint>CSX</OffPoint>
+		<BoardPointAT>T2</BoardPointAT>
+		<OffPointAT>T2</OffPointAT>
+		<FlightTime>1:40</FlightTime>
+		<DepartureDate>2013-10-15</DepartureDate>
+		<DepartureTime>07:50</DepartureTime>
+		<ArrivalDate>2013-10-15</ArrivalDate>
+		<ArrivalTime>09:30</ArrivalTime>
+		<Aircraft>323</Aircraft>
+		<AirportTax>50</AirportTax>
+		<Meal>S</Meal>
+		<ViaPort>0</ViaPort>
+		<ETicket>E</ETicket>
+		<ASR>^</ASR>
+		<LinkLevel>DS#</LinkLevel>
+		<Classes>
+			<Class Code="F" Ext=" " Seat="A" Price="0" />
+			<Class Code="P" Ext=" " Seat="Q" Price="0" />
+			<Class Code="Y" Ext=" " Seat="A" Price="0" />
+			<Class Code="B" Ext=" " Seat="A" Price="0" />
+			<Class Code="M" Ext=" " Seat="Q" Price="0" />
+			<Class Code="E" Ext=" " Seat="Q" Price="0" />
+			<Class Code="H" Ext=" " Seat="Q" Price="0" />
+			<Class Code="K" Ext=" " Seat="Q" Price="0" />
+			<Class Code="L" Ext=" " Seat="Q" Price="0" />
+			<Class Code="N" Ext=" " Seat="Q" Price="0" />
+			<Class Code="R" Ext=" " Seat="Q" Price="0" />
+			<Class Code="S" Ext=" " Seat="Q" Price="0" />
+			<Class Code="V" Ext=" " Seat="Q" Price="0" />
+			<Class Code="T" Ext=" " Seat="Q" Price="0" />
+			<Class Code="G" Ext=" " Seat="Q" Price="0" />
+			<Class Code="Z" Ext=" " Seat="Q" Price="0" />
+			<Class Code="Q" Ext=" " Seat="Q" Price="0" />
+		</Classes>
+		<YClassPrice>0</YClassPrice>
+		<FuelSurTax>0</FuelSurTax>
+		<TPM>964</TPM>
+	</Item>
+	<Item>
+		<ID>2</ID>
+		<FlightID>02</FlightID>
+		<ElementNo>3</ElementNo>
+		<FlightType>S</FlightType>
+		<Carrier>MU</Carrier>
+		<FlightNo>9395</FlightNo>
+		<ShareCarrier>FM</ShareCarrier>
+		<ShareFlight>9395</ShareFlight>
+		<BoardPoint>SHA</BoardPoint>
+		<OffPoint>CSX</OffPoint>
+		<BoardPointAT>T2</BoardPointAT>
+		<OffPointAT>T2</OffPointAT>
+		<FlightTime>1:50</FlightTime>
+		<DepartureDate>2013-10-15</DepartureDate>
+		<DepartureTime>08:55</DepartureTime>
+		<ArrivalDate>2013-10-15</ArrivalDate>
+		<ArrivalTime>10:45</ArrivalTime>
+		<Aircraft>73E</Aircraft>
+		<AirportTax>50</AirportTax>
+		<Meal>
+		</Meal>
+		<ViaPort>0</ViaPort>
+		<ETicket>E</ETicket>
+		<ASR>^</ASR>
+		<LinkLevel>DS#</LinkLevel>
+		<Classes>
+			<Class Code="F" Ext=" " Seat="8" Price="0" />
+			<Class Code="P" Ext=" " Seat="Q" Price="0" />
+			<Class Code="A" Ext=" " Seat="Q" Price="0" />
+			<Class Code="Y" Ext=" " Seat="A" Price="0" />
+			<Class Code="B" Ext=" " Seat="Q" Price="0" />
+			<Class Code="M" Ext=" " Seat="Q" Price="0" />
+			<Class Code="E" Ext=" " Seat="Q" Price="0" />
+			<Class Code="H" Ext=" " Seat="Q" Price="0" />
+			<Class Code="K" Ext=" " Seat="Q" Price="0" />
+			<Class Code="L" Ext=" " Seat="Q" Price="0" />
+			<Class Code="N" Ext=" " Seat="Q" Price="0" />
+			<Class Code="R" Ext=" " Seat="Q" Price="0" />
+			<Class Code="S" Ext=" " Seat="Q" Price="0" />
+			<Class Code="V" Ext=" " Seat="Q" Price="0" />
+			<Class Code="T" Ext=" " Seat="Q" Price="0" />
+			<Class Code="G" Ext=" " Seat="Q" Price="0" />
+			<Class Code="Z" Ext=" " Seat="Q" Price="0" />
+			<Class Code="Q" Ext=" " Seat="Q" Price="0" />
+			<Class Code="U" Ext=" " Seat="Q" Price="0" />
+			<Class Code="X" Ext=" " Seat="Q" Price="0" />
+		</Classes>
+		<YClassPrice>0</YClassPrice>
+		<FuelSurTax>0</FuelSurTax>
+		<TPM>964</TPM>
+	</Item>
+	<Item>
+		<ID>3</ID>
+		<FlightID>03</FlightID>
+		<ElementNo>4</ElementNo>
+		<FlightType>S</FlightType>
+		<Carrier>MU</Carrier>
+		<FlightNo>9389</FlightNo>
+		<ShareCarrier>FM</ShareCarrier>
+		<ShareFlight>9389</ShareFlight>
+		<BoardPoint>PVG</BoardPoint>
+		<OffPoint>CSX</OffPoint>
+		<BoardPointAT>T1</BoardPointAT>
+		<OffPointAT>T2</OffPointAT>
+		<FlightTime>2:00</FlightTime>
+		<DepartureDate>2013-10-15</DepartureDate>
+		<DepartureTime>10:40</DepartureTime>
+		<ArrivalDate>2013-10-15</ArrivalDate>
+		<ArrivalTime>12:40</ArrivalTime>
+		<Aircraft>737</Aircraft>
+		<AirportTax>50</AirportTax>
+		<Meal>
+		</Meal>
+		<ViaPort>0</ViaPort>
+		<ETicket>E</ETicket>
+		<ASR>^</ASR>
+		<LinkLevel>DS#</LinkLevel>
+		<Classes>
+			<Class Code="F" Ext=" " Seat="8" Price="0" />
+			<Class Code="P" Ext=" " Seat="Q" Price="0" />
+			<Class Code="A" Ext=" " Seat="Q" Price="0" />
+			<Class Code="Y" Ext=" " Seat="A" Price="0" />
+			<Class Code="B" Ext=" " Seat="A" Price="0" />
+			<Class Code="M" Ext=" " Seat="Q" Price="0" />
+			<Class Code="E" Ext=" " Seat="Q" Price="0" />
+			<Class Code="H" Ext=" " Seat="Q" Price="0" />
+			<Class Code="K" Ext=" " Seat="Q" Price="0" />
+			<Class Code="L" Ext=" " Seat="Q" Price="0" />
+			<Class Code="N" Ext=" " Seat="Q" Price="0" />
+			<Class Code="R" Ext=" " Seat="Q" Price="0" />
+			<Class Code="S" Ext=" " Seat="Q" Price="0" />
+			<Class Code="V" Ext=" " Seat="Q" Price="0" />
+			<Class Code="T" Ext=" " Seat="Q" Price="0" />
+			<Class Code="G" Ext=" " Seat="Q" Price="0" />
+			<Class Code="Z" Ext=" " Seat="Q" Price="0" />
+			<Class Code="Q" Ext=" " Seat="Q" Price="0" />
+			<Class Code="U" Ext=" " Seat="Q" Price="0" />
+			<Class Code="X" Ext=" " Seat="Q" Price="0" />
+		</Classes>
+		<YClassPrice>0</YClassPrice>
+		<FuelSurTax>0</FuelSurTax>
+		<TPM>964</TPM>
+	</Item>
+	<Item>
+		<ID>4</ID>
+		<FlightID>04</FlightID>
+		<ElementNo>5</ElementNo>
+		<FlightType>S</FlightType>
+		<Carrier>MU</Carrier>
+		<FlightNo>3314</FlightNo>
+		<ShareCarrier>CZ</ShareCarrier>
+		<ShareFlight>3966</ShareFlight>
+		<BoardPoint>SHA</BoardPoint>
+		<OffPoint>CSX</OffPoint>
+		<BoardPointAT>T2</BoardPointAT>
+		<OffPointAT>T2</OffPointAT>
+		<FlightTime>1:45</FlightTime>
+		<DepartureDate>2013-10-15</DepartureDate>
+		<DepartureTime>10:50</DepartureTime>
+		<ArrivalDate>2013-10-15</ArrivalDate>
+		<ArrivalTime>12:35</ArrivalTime>
+		<Aircraft>321</Aircraft>
+		<AirportTax>50</AirportTax>
+		<Meal>C</Meal>
+		<ViaPort>0</ViaPort>
+		<ETicket>E</ETicket>
+		<ASR>^</ASR>
+		<LinkLevel>AS#</LinkLevel>
+		<Classes>
+			<Class Code="Y" Ext=" " Seat="A" Price="0" />
+			<Class Code="B" Ext=" " Seat="Q" Price="0" />
+			<Class Code="M" Ext=" " Seat="Q" Price="0" />
+			<Class Code="E" Ext=" " Seat="Q" Price="0" />
+			<Class Code="H" Ext=" " Seat="Q" Price="0" />
+			<Class Code="K" Ext=" " Seat="Q" Price="0" />
+			<Class Code="L" Ext=" " Seat="Q" Price="0" />
+			<Class Code="N" Ext=" " Seat="Q" Price="0" />
+			<Class Code="R" Ext=" " Seat="Q" Price="0" />
+			<Class Code="S" Ext=" " Seat="Q" Price="0" />
+			<Class Code="V" Ext=" " Seat="Q" Price="0" />
+		</Classes>
+		<YClassPrice>0</YClassPrice>
+		<FuelSurTax>0</FuelSurTax>
+		<TPM>964</TPM>
+	</Item>
+	<Item>
+		<ID>5</ID>
+		<FlightID>05</FlightID>
+		<ElementNo>6</ElementNo>
+		<FlightType>S</FlightType>
+		<Carrier>MU</Carrier>
+		<FlightNo>9391</FlightNo>
+		<ShareCarrier>FM</ShareCarrier>
+		<ShareFlight>9391</ShareFlight>
+		<BoardPoint>SHA</BoardPoint>
+		<OffPoint>CSX</OffPoint>
+		<BoardPointAT>T2</BoardPointAT>
+		<OffPointAT>T2</OffPointAT>
+		<FlightTime>1:45</FlightTime>
+		<DepartureDate>2013-10-15</DepartureDate>
+		<DepartureTime>11:55</DepartureTime>
+		<ArrivalDate>2013-10-15</ArrivalDate>
+		<ArrivalTime>13:40</ArrivalTime>
+		<Aircraft>73E</Aircraft>
+		<AirportTax>50</AirportTax>
+		<Meal>L</Meal>
+		<ViaPort>0</ViaPort>
+		<ETicket>E</ETicket>
+		<ASR>^</ASR>
+		<LinkLevel>DS#</LinkLevel>
+		<Classes>
+			<Class Code="F" Ext=" " Seat="8" Price="0" />
+			<Class Code="P" Ext=" " Seat="3" Price="0" />
+			<Class Code="A" Ext=" " Seat="1" Price="0" />
+			<Class Code="Y" Ext=" " Seat="A" Price="0" />
+			<Class Code="B" Ext=" " Seat="A" Price="0" />
+			<Class Code="M" Ext=" " Seat="A" Price="0" />
+			<Class Code="E" Ext=" " Seat="A" Price="0" />
+			<Class Code="H" Ext=" " Seat="A" Price="0" />
+			<Class Code="K" Ext=" " Seat="Q" Price="0" />
+			<Class Code="L" Ext=" " Seat="Q" Price="0" />
+			<Class Code="N" Ext=" " Seat="Q" Price="0" />
+			<Class Code="R" Ext=" " Seat="Q" Price="0" />
+			<Class Code="S" Ext=" " Seat="Q" Price="0" />
+			<Class Code="V" Ext=" " Seat="Q" Price="0" />
+			<Class Code="T" Ext=" " Seat="Q" Price="0" />
+			<Class Code="G" Ext=" " Seat="Q" Price="0" />
+			<Class Code="Z" Ext=" " Seat="Q" Price="0" />
+			<Class Code="Q" Ext=" " Seat="Q" Price="0" />
+			<Class Code="U" Ext=" " Seat="Q" Price="0" />
+			<Class Code="X" Ext=" " Seat="Q" Price="0" />
+		</Classes>
+		<YClassPrice>0</YClassPrice>
+		<FuelSurTax>0</FuelSurTax>
+		<TPM>964</TPM>
+	</Item>
+	<Item>
+		<ID>6</ID>
+		<FlightID>06</FlightID>
+		<ElementNo>7</ElementNo>
+		<FlightType>N</FlightType>
+		<Carrier>MU</Carrier>
+		<FlightNo>5361</FlightNo>
+		<ShareCarrier></ShareCarrier>
+		<ShareFlight></ShareFlight>
+		<BoardPoint>SHA</BoardPoint>
+		<OffPoint>CSX</OffPoint>
+		<BoardPointAT>T2</BoardPointAT>
+		<OffPointAT>T2</OffPointAT>
+		<FlightTime>1:45</FlightTime>
+		<DepartureDate>2013-10-15</DepartureDate>
+		<DepartureTime>13:35</DepartureTime>
+		<ArrivalDate>2013-10-15</ArrivalDate>
+		<ArrivalTime>15:20</ArrivalTime>
+		<Aircraft>321</Aircraft>
+		<AirportTax>50</AirportTax>
+		<Meal>
+		</Meal>
+		<ViaPort>0</ViaPort>
+		<ETicket>E</ETicket>
+		<ASR>^</ASR>
+		<LinkLevel>DS#</LinkLevel>
+		<Classes>
+			<Class Code="F" Ext=" " Seat="A" Price="0" />
+			<Class Code="P" Ext=" " Seat="5" Price="0" />
+			<Class Code="Y" Ext=" " Seat="A" Price="0" />
+			<Class Code="B" Ext=" " Seat="A" Price="0" />
+			<Class Code="M" Ext=" " Seat="A" Price="0" />
+			<Class Code="E" Ext=" " Seat="A" Price="0" />
+			<Class Code="H" Ext=" " Seat="A" Price="0" />
+			<Class Code="K" Ext=" " Seat="Q" Price="0" />
+			<Class Code="L" Ext=" " Seat="Q" Price="0" />
+			<Class Code="N" Ext=" " Seat="Q" Price="0" />
+			<Class Code="R" Ext=" " Seat="Q" Price="0" />
+			<Class Code="S" Ext=" " Seat="Q" Price="0" />
+			<Class Code="V" Ext=" " Seat="Q" Price="0" />
+			<Class Code="T" Ext=" " Seat="Q" Price="0" />
+			<Class Code="G" Ext=" " Seat="Q" Price="0" />
+			<Class Code="Z" Ext=" " Seat="Q" Price="0" />
+			<Class Code="Q" Ext=" " Seat="Q" Price="0" />
+		</Classes>
+		<YClassPrice>0</YClassPrice>
+		<FuelSurTax>0</FuelSurTax>
+		<TPM>964</TPM>
+	</Item>
+	<Item>
+		<ID>7</ID>
+		<FlightID>07</FlightID>
+		<ElementNo>8</ElementNo>
+		<FlightType>S</FlightType>
+		<Carrier>MU</Carrier>
+		<FlightNo>3931</FlightNo>
+		<ShareCarrier>HO</ShareCarrier>
+		<ShareFlight>1125</ShareFlight>
+		<BoardPoint>SHA</BoardPoint>
+		<OffPoint>CSX</OffPoint>
+		<BoardPointAT>T2</BoardPointAT>
+		<OffPointAT>T2</OffPointAT>
+		<FlightTime>1:50</FlightTime>
+		<DepartureDate>2013-10-15</DepartureDate>
+		<DepartureTime>14:00</DepartureTime>
+		<ArrivalDate>2013-10-15</ArrivalDate>
+		<ArrivalTime>15:50</ArrivalTime>
+		<Aircraft>320</Aircraft>
+		<AirportTax>50</AirportTax>
+		<Meal>S</Meal>
+		<ViaPort>0</ViaPort>
+		<ETicket>E</ETicket>
+		<ASR>^</ASR>
+		<LinkLevel>DS#</LinkLevel>
+		<Classes>
+			<Class Code="Y" Ext=" " Seat="A" Price="0" />
+			<Class Code="B" Ext=" " Seat="S" Price="0" />
+			<Class Code="M" Ext=" " Seat="S" Price="0" />
+			<Class Code="E" Ext=" " Seat="S" Price="0" />
+			<Class Code="H" Ext=" " Seat="S" Price="0" />
+			<Class Code="K" Ext=" " Seat="S" Price="0" />
+		</Classes>
+		<YClassPrice>0</YClassPrice>
+		<FuelSurTax>0</FuelSurTax>
+		<TPM>964</TPM>
+	</Item>
+	<Item>
+		<ID>8</ID>
+		<FlightID>08</FlightID>
+		<ElementNo>1</ElementNo>
+		<FlightType>N</FlightType>
+		<Carrier>MU</Carrier>
+		<FlightNo>5693</FlightNo>
+		<ShareCarrier></ShareCarrier>
+		<ShareFlight></ShareFlight>
+		<BoardPoint>SHA</BoardPoint>
+		<OffPoint>CSX</OffPoint>
+		<BoardPointAT>T2</BoardPointAT>
+		<OffPointAT>T2</OffPointAT>
+		<FlightTime>1:35</FlightTime>
+		<DepartureDate>2013-10-15</DepartureDate>
+		<DepartureTime>15:00</DepartureTime>
+		<ArrivalDate>2013-10-15</ArrivalDate>
+		<ArrivalTime>16:35</ArrivalTime>
+		<Aircraft>325</Aircraft>
+		<AirportTax>50</AirportTax>
+		<Meal>
+		</Meal>
+		<ViaPort>0</ViaPort>
+		<ETicket>E</ETicket>
+		<ASR>^</ASR>
+		<LinkLevel>DS#</LinkLevel>
+		<Classes>
+			<Class Code="F" Ext=" " Seat="A" Price="0" />
+			<Class Code="P" Ext=" " Seat="Q" Price="0" />
+			<Class Code="Y" Ext=" " Seat="A" Price="0" />
+			<Class Code="B" Ext=" " Seat="Q" Price="0" />
+			<Class Code="M" Ext=" " Seat="Q" Price="0" />
+			<Class Code="E" Ext=" " Seat="Q" Price="0" />
+			<Class Code="H" Ext=" " Seat="Q" Price="0" />
+			<Class Code="K" Ext=" " Seat="Q" Price="0" />
+			<Class Code="L" Ext=" " Seat="Q" Price="0" />
+			<Class Code="N" Ext=" " Seat="Q" Price="0" />
+			<Class Code="R" Ext=" " Seat="Q" Price="0" />
+			<Class Code="S" Ext=" " Seat="Q" Price="0" />
+			<Class Code="V" Ext=" " Seat="Q" Price="0" />
+			<Class Code="T" Ext=" " Seat="Q" Price="0" />
+			<Class Code="G" Ext=" " Seat="Q" Price="0" />
+			<Class Code="Z" Ext=" " Seat="Q" Price="0" />
+			<Class Code="Q" Ext=" " Seat="Q" Price="0" />
+		</Classes>
+		<YClassPrice>0</YClassPrice>
+		<FuelSurTax>0</FuelSurTax>
+		<TPM>964</TPM>
+	</Item>
+	<Item>
+		<ID>9</ID>
+		<FlightID>09</FlightID>
+		<ElementNo>2</ElementNo>
+		<FlightType>N</FlightType>
+		<Carrier>MU</Carrier>
+		<FlightNo>5363</FlightNo>
+		<ShareCarrier></ShareCarrier>
+		<ShareFlight></ShareFlight>
+		<BoardPoint>PVG</BoardPoint>
+		<OffPoint>CSX</OffPoint>
+		<BoardPointAT>T1</BoardPointAT>
+		<OffPointAT>T2</OffPointAT>
+		<FlightTime>2:00</FlightTime>
+		<DepartureDate>2013-10-15</DepartureDate>
+		<DepartureTime>16:20</DepartureTime>
+		<ArrivalDate>2013-10-15</ArrivalDate>
+		<ArrivalTime>18:20</ArrivalTime>
+		<Aircraft>320</Aircraft>
+		<AirportTax>50</AirportTax>
+		<Meal>
+		</Meal>
+		<ViaPort>0</ViaPort>
+		<ETicket>E</ETicket>
+		<ASR>^</ASR>
+		<LinkLevel>DS#</LinkLevel>
+		<Classes>
+			<Class Code="F" Ext=" " Seat="8" Price="0" />
+			<Class Code="P" Ext=" " Seat="3" Price="0" />
+			<Class Code="Y" Ext=" " Seat="A" Price="0" />
+			<Class Code="B" Ext=" " Seat="A" Price="0" />
+			<Class Code="M" Ext=" " Seat="A" Price="0" />
+			<Class Code="E" Ext=" " Seat="A" Price="0" />
+			<Class Code="H" Ext=" " Seat="A" Price="0" />
+			<Class Code="K" Ext=" " Seat="Q" Price="0" />
+			<Class Code="L" Ext=" " Seat="Q" Price="0" />
+			<Class Code="N" Ext=" " Seat="Q" Price="0" />
+			<Class Code="R" Ext=" " Seat="Q" Price="0" />
+			<Class Code="S" Ext=" " Seat="Q" Price="0" />
+			<Class Code="V" Ext=" " Seat="Q" Price="0" />
+			<Class Code="T" Ext=" " Seat="Q" Price="0" />
+			<Class Code="G" Ext=" " Seat="Q" Price="0" />
+			<Class Code="Z" Ext=" " Seat="Q" Price="0" />
+			<Class Code="Q" Ext=" " Seat="Q" Price="0" />
+		</Classes>
+		<YClassPrice>0</YClassPrice>
+		<FuelSurTax>0</FuelSurTax>
+		<TPM>964</TPM>
+	</Item>
+	<Item>
+		<ID>10</ID>
+		<FlightID>10</FlightID>
+		<ElementNo>3</ElementNo>
+		<FlightType>S</FlightType>
+		<Carrier>MU</Carrier>
+		<FlightNo>9393</FlightNo>
+		<ShareCarrier>FM</ShareCarrier>
+		<ShareFlight>9393</ShareFlight>
+		<BoardPoint>SHA</BoardPoint>
+		<OffPoint>CSX</OffPoint>
+		<BoardPointAT>T2</BoardPointAT>
+		<OffPointAT>T2</OffPointAT>
+		<FlightTime>1:50</FlightTime>
+		<DepartureDate>2013-10-15</DepartureDate>
+		<DepartureTime>17:55</DepartureTime>
+		<ArrivalDate>2013-10-15</ArrivalDate>
+		<ArrivalTime>19:45</ArrivalTime>
+		<Aircraft>738</Aircraft>
+		<AirportTax>50</AirportTax>
+		<Meal>D</Meal>
+		<ViaPort>0</ViaPort>
+		<ETicket>E</ETicket>
+		<ASR>^</ASR>
+		<LinkLevel>DS#</LinkLevel>
+		<Classes>
+			<Class Code="F" Ext=" " Seat="8" Price="0" />
+			<Class Code="P" Ext=" " Seat="3" Price="0" />
+			<Class Code="A" Ext=" " Seat="1" Price="0" />
+			<Class Code="Y" Ext=" " Seat="A" Price="0" />
+			<Class Code="B" Ext=" " Seat="A" Price="0" />
+			<Class Code="M" Ext=" " Seat="A" Price="0" />
+			<Class Code="E" Ext=" " Seat="A" Price="0" />
+			<Class Code="H" Ext=" " Seat="Q" Price="0" />
+			<Class Code="K" Ext=" " Seat="Q" Price="0" />
+			<Class Code="L" Ext=" " Seat="Q" Price="0" />
+			<Class Code="N" Ext=" " Seat="Q" Price="0" />
+			<Class Code="R" Ext=" " Seat="Q" Price="0" />
+			<Class Code="S" Ext=" " Seat="Q" Price="0" />
+			<Class Code="V" Ext=" " Seat="Q" Price="0" />
+			<Class Code="T" Ext=" " Seat="Q" Price="0" />
+			<Class Code="G" Ext=" " Seat="Q" Price="0" />
+			<Class Code="Z" Ext=" " Seat="Q" Price="0" />
+			<Class Code="Q" Ext=" " Seat="Q" Price="0" />
+			<Class Code="U" Ext=" " Seat="Q" Price="0" />
+			<Class Code="X" Ext=" " Seat="Q" Price="0" />
+		</Classes>
+		<YClassPrice>0</YClassPrice>
+		<FuelSurTax>0</FuelSurTax>
+		<TPM>964</TPM>
+	</Item>
+	<Item>
+		<ID>11</ID>
+		<FlightID>11</FlightID>
+		<ElementNo>4</ElementNo>
+		<FlightType>N</FlightType>
+		<Carrier>MU</Carrier>
+		<FlightNo>5341</FlightNo>
+		<ShareCarrier></ShareCarrier>
+		<ShareFlight></ShareFlight>
+		<BoardPoint>PVG</BoardPoint>
+		<OffPoint>CSX</OffPoint>
+		<BoardPointAT>T1</BoardPointAT>
+		<OffPointAT>T2</OffPointAT>
+		<FlightTime>2:00</FlightTime>
+		<DepartureDate>2013-10-15</DepartureDate>
+		<DepartureTime>21:30</DepartureTime>
+		<ArrivalDate>2013-10-15</ArrivalDate>
+		<ArrivalTime>23:30</ArrivalTime>
+		<Aircraft>319</Aircraft>
+		<AirportTax>50</AirportTax>
+		<Meal>
+		</Meal>
+		<ViaPort>0</ViaPort>
+		<ETicket>E</ETicket>
+		<ASR>^</ASR>
+		<LinkLevel>DS#</LinkLevel>
+		<Classes>
+			<Class Code="F" Ext=" " Seat="8" Price="0" />
+			<Class Code="P" Ext=" " Seat="3" Price="0" />
+			<Class Code="Y" Ext=" " Seat="A" Price="0" />
+			<Class Code="B" Ext=" " Seat="A" Price="0" />
+			<Class Code="M" Ext=" " Seat="A" Price="0" />
+			<Class Code="E" Ext=" " Seat="A" Price="0" />
+			<Class Code="H" Ext=" " Seat="A" Price="0" />
+			<Class Code="K" Ext=" " Seat="Q" Price="0" />
+			<Class Code="L" Ext=" " Seat="Q" Price="0" />
+			<Class Code="N" Ext=" " Seat="Q" Price="0" />
+			<Class Code="R" Ext=" " Seat="Q" Price="0" />
+			<Class Code="S" Ext=" " Seat="Q" Price="0" />
+			<Class Code="V" Ext=" " Seat="Q" Price="0" />
+			<Class Code="T" Ext=" " Seat="Q" Price="0" />
+			<Class Code="G" Ext=" " Seat="Q" Price="0" />
+			<Class Code="Z" Ext=" " Seat="A" Price="0" />
+			<Class Code="Q" Ext=" " Seat="Q" Price="0" />
+		</Classes>
+		<YClassPrice>0</YClassPrice>
+		<FuelSurTax>0</FuelSurTax>
+		<TPM>964</TPM>
+	</Item>
+</CRS.CommandSet.AV1.2>

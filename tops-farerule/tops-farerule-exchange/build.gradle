@@ -1,0 +1,13 @@
+group = 'com.travelzen'
+version = "${versions.tops_farerule}"
+
+dependencies {
+	compile libraries.jcl_over_slf4j
+	compile libraries.log4j_over_slf4j
+	compile libraries.logback
+	
+	compile libraries.json_lib
+	
+	compile libraries.axis
+	compile libraries.wsdl4j
+}

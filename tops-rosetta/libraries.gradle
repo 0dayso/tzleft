@@ -1,0 +1,24 @@
+ext {
+
+    versions = [
+
+        //ETERM
+        tops_rosetta_eterm:         '1.3.9.7.RELEASE',
+
+    ]
+
+    libraries = [
+
+        // javatuples
+        javatuples:                 'org.javatuples:javatuples:1.2',
+
+        //log
+        slf4j:                      'org.slf4j:slf4j-api:1.7.7',
+        logback:                    'ch.qos.logback:logback-classic:1.1.2',
+
+        //jodatime
+        jodatime:                   'joda-time:joda-time:2.8.2',
+
+    ]
+
+}

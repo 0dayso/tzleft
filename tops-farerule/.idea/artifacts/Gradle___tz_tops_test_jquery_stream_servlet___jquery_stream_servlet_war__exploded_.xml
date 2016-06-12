@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : tz.tops-test:jquery-stream-servlet : jquery-stream-servlet.war (exploded)">
+    <output-path>$PROJECT_DIR$/build/classes/artifacts/jquery-stream-servlet/exploded/jquery-stream-servlet.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$/../tops-test/jquery-stream-servlet" />
+    </properties>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="jquery-stream-servlet/web/Web Gradle : jquery-stream-servlet.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jquery-stream-servlet" />
+          <element id="dir-copy" path="$PROJECT_DIR$/../tops-test/jquery-stream-servlet/target/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/build/classes/artifacts/jquery-stream-servlet/exploded/jquery-stream-servlet.war/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

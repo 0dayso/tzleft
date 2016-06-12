@@ -1,0 +1,108 @@
+ext {
+
+    versions = [
+
+		//TOPS-FARE-CENTER
+		tops_fare_center:           '1.0.SNAPSHOT',
+
+		//ROSETTA
+		tops_rosetta_eterm:         '1.2.SNAPSHOT',
+
+		//UFIS
+		tops_ufis:                  '1.0.7.RELEASE',
+
+    ]
+
+    libraries = [
+
+		//rosetta
+		tops_rosetta_eterm_common:  "com.travelzen:tops-rosetta-eterm-common:${versions.tops_rosetta_eterm}",
+		tops_rosetta_eterm_parser:  "com.travelzen:tops-rosetta-eterm-parser:${versions.tops_rosetta_eterm}",
+
+		//ufis
+		tops_ufis_client:           "com.travelzen:tops-ufis-client:${versions.tops_ufis}",
+
+
+
+		//junit
+		junit:                      'junit:junit:4.12',
+
+		//javatuples
+		javatuples:                 'org.javatuples:javatuples:1.2',
+
+		//log
+		slf4j:                      'org.slf4j:slf4j-api:1.7.7',
+		logback:                    'ch.qos.logback:logback-classic:1.1.2',
+
+		//servlet
+		servlet_api:                'javax.servlet:servlet-api:2.5',
+
+		//jsp
+		jsp_api:                    'javax.servlet:jsp-api:2.0',
+
+		//spring
+		//core utilities
+		spring_core:                'org.springframework:spring-core:4.1.8.RELEASE',
+		//dependency injection
+		spring_beans:               'org.springframework:spring-beans:4.1.8.RELEASE',
+		spring_context:             'org.springframework:spring-context:4.1.8.RELEASE',
+		// needed for quartz
+		spring_context_support:     'org.springframework:spring-context-support:4.1.8.RELEASE',
+		//web frameworks
+		spring_web:                 'org.springframework:spring-web:4.1.8.RELEASE',
+		spring_webmvc:              'org.springframework:spring-webmvc:4.1.8.RELEASE',
+		//aspect oriented
+		spring_aop:                 'org.springframework:spring-aop:4.1.8.RELEASE',
+		//transaction apis/managers
+		spring_tx:                  'org.springframework:spring-tx:4.1.8.RELEASE',
+		//jdbc extentions
+		spring_jdbc:                'org.springframework:spring-jdbc:4.1.8.RELEASE',
+		//testing frameworks
+		spring_test:                'org.springframework:spring-test:4.1.8.RELEASE',
+
+		//aspectj
+		aspectjrt:                  'org.aspectj:aspectjrt:1.8.7',
+		aspectjweaver:              'org.aspectj:aspectjweaver:1.8.7',
+
+		//quartz
+		quartz:                     'org.quartz-scheduler:quartz:2.2.1',
+		
+		//mongodb
+		mongo_java_driver:          'org.mongodb:mongo-java-driver:3.1.0',
+		morphia:                    'org.mongodb.morphia:morphia:1.0.1',
+
+		//c3p0
+		c3p0:                       'com.mchange:c3p0:0.9.5',
+
+		//hibernate
+		hibernate_core:             'org.hibernate:hibernate-core:4.3.9.Final',
+
+		//thrift
+		thrift:                     'org.apache.thrift:libthrift:0.9.2',
+
+		//httpclient
+		httpclient:                 'org.apache.httpcomponents:httpclient:4.5.1',
+
+		//json
+		json:                       'org.json:json:20150729',
+
+		//jackson
+		jackson_core:               'com.fasterxml.jackson.core:jackson-core:2.6.3',
+		jackson_databind:           'com.fasterxml.jackson.core:jackson-databind:2.6.3',
+		jackson_annotations:        'com.fasterxml.jackson.core:jackson-annotations:2.6.3',
+
+		//gson
+		gson:                       'com.google.code.gson:gson:2.4',
+
+		//dom4j
+		dom4j:                      'dom4j:dom4j:1.6.1',
+
+		//xerces2
+		xerces2:                    'xerces:xercesImpl:2.11.0',
+
+		//jodatime
+		jodatime:                   'joda-time:joda-time:2.8.2',
+
+    ]
+
+}

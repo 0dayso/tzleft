@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+   http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+   http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+   http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+    http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.0.xsd">
+
+    <description>Quartz定时任务配置</description>
+
+    <context:component-scan base-package="com.travelzen.api.monitor.cron"/>
+    
+    <bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        <property name="triggers">
+            <list>
+                <ref bean="checkAirAvailAXmlTrigger"/>
+                <ref bean="checkAirAvailByFltXmlTrigger"/>
+<!--            <ref bean="checkAirBookXmlTrigger"/>    -->
+                <ref bean="checkAirResRetCompleteXmlTrigger"/>
+                <ref bean="checkAirFareFlightShopIXmlTrigger"/>
+            </list>
+        </property>
+        <property name="autoStartup" value="true"/>
+    </bean>
+    
+    <bean id="checkAirAvailAXmlTrigger" class="org.springframework.scheduling.quartz.SimpleTriggerFactoryBean"
+          lazy-init="false">
+        <property name="jobDetail" ref="checkAirAvailAXmlCronMethodInvoke"/>
+        <property name="repeatInterval" value="600000"/>
+        <property name="startDelay" value="3000"/>
+    </bean>
+    <bean id="checkAirAvailAXmlCronMethodInvoke" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean"
+          lazy-init="false">
+        <property name="targetObject" ref="checkAirAvailAXmlCron"/>
+        <property name="targetMethod" value="exe"/>
+        <property name="concurrent" value="false"/>
+    </bean>
+    
+    <bean id="checkAirAvailByFltXmlTrigger" class="org.springframework.scheduling.quartz.SimpleTriggerFactoryBean"
+          lazy-init="false">
+        <property name="jobDetail" ref="checkAirAvailByFltXmlCronMethodInvoke"/>
+        <property name="repeatInterval" value="600000"/>
+        <property name="startDelay" value="3000"/>
+    </bean>
+    <bean id="checkAirAvailByFltXmlCronMethodInvoke" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean"
+          lazy-init="false">
+        <property name="targetObject" ref="checkAirAvailByFltXmlCron"/>
+        <property name="targetMethod" value="exe"/>
+        <property name="concurrent" value="false"/>
+    </bean>
+    
+    <bean id="checkAirBookXmlTrigger" class="org.springframework.scheduling.quartz.SimpleTriggerFactoryBean"
+          lazy-init="false">
+        <property name="jobDetail" ref="checkAirBookXmlCronMethodInvoke"/>
+        <property name="repeatInterval" value="600000"/>
+        <property name="startDelay" value="3000"/>
+    </bean>
+    <bean id="checkAirBookXmlCronMethodInvoke" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean"
+          lazy-init="false">
+        <property name="targetObject" ref="checkAirBookXmlCron"/>
+        <property name="targetMethod" value="exe"/>
+        <property name="concurrent" value="false"/>
+    </bean>
+    
+    <bean id="checkAirResRetCompleteXmlTrigger" class="org.springframework.scheduling.quartz.SimpleTriggerFactoryBean"
+          lazy-init="false">
+        <property name="jobDetail" ref="checkAirResRetCompleteXmlCronMethodInvoke"/>
+        <property name="repeatInterval" value="600000"/>
+        <property name="startDelay" value="3000"/>
+    </bean>
+    <bean id="checkAirResRetCompleteXmlCronMethodInvoke" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean"
+          lazy-init="false">
+        <property name="targetObject" ref="checkAirResRetCompleteXmlCron"/>
+        <property name="targetMethod" value="exe"/>
+        <property name="concurrent" value="false"/>
+    </bean>
+    
+    <bean id="checkAirFareFlightShopIXmlTrigger" class="org.springframework.scheduling.quartz.SimpleTriggerFactoryBean"
+          lazy-init="false">
+        <property name="jobDetail" ref="checkAirFareFlightShopIXmlCronMethodInvoke"/>
+        <property name="repeatInterval" value="600000"/>
+        <property name="startDelay" value="3000"/>
+    </bean>
+    <bean id="checkAirFareFlightShopIXmlCronMethodInvoke" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean"
+          lazy-init="false">
+        <property name="targetObject" ref="checkAirFareFlightShopIXmlCron"/>
+        <property name="targetMethod" value="exe"/>
+        <property name="concurrent" value="false"/>
+    </bean>
+    
+</beans>

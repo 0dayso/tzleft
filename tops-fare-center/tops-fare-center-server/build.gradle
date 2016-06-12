@@ -1,0 +1,17 @@
+apply plugin: 'war'
+
+dependencies {
+	compile project(':tops-fare-center-mongo')
+
+	compile libraries.tops_ufis_client
+	compile libraries.tops_rosetta_eterm_parser
+	
+	compile libraries.spring_core
+	compile libraries.spring_beans
+	compile libraries.spring_context
+	compile libraries.spring_context_support
+	compile libraries.spring_web
+	compile libraries.spring_webmvc
+	compile libraries.spring_tx
+	compile libraries.quartz
+}

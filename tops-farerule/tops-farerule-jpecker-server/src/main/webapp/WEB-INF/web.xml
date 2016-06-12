@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>tops-farerule-jpecker-server</display-name>
+	
+	<listener>
+		<listener-class>com.travelzen.farerule.jpecker.server.contextloader.JpeckerContextLoaderListener</listener-class>
+	</listener>
+	
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>
+			classpath*:spring/applicationContext*.xml
+		</param-value>
+	</context-param>
+
+	<servlet>
+  		<servlet-name>jpecker</servlet-name>
+		<servlet-class>com.travelzen.farerule.jpecker.server.JpeckerServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>jpecker</servlet-name>
+		<url-pattern>/jpecker</url-pattern>
+	</servlet-mapping>
+
+</web-app>

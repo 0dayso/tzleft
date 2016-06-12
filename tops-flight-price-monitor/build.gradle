@@ -1,0 +1,37 @@
+apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: 'jetty'
+apply plugin: 'eclipse-wtp'
+apply plugin: 'idea'
+
+group = 'com.travelzen.ibe.monitor'
+
+repositories {
+	maven { url 'http://192.168.160.187:8081/nexus/content/groups/public' }
+    maven { url 'https://maven.alfresco.com/nexus/content/groups/public' }
+    maven { url 'https://raw.github.com/dianping/cat/mvn-repo' }
+    mavenLocal()
+	mavenCentral()
+}
+
+dependencies {
+	compile 'org.slf4j:slf4j-api:1.7.7'
+	compile 'ch.qos.logback:logback-classic:1.1.2'
+	
+	compile "org.codehaus.jackson:jackson-mapper-asl:1.9.12"
+	
+	compile 'javax.servlet:servlet-api:2.5'
+	compile 'javax.servlet:jsp-api:2.0'
+
+	compile 'org.springframework:spring-context:4.1.0.RELEASE'
+	compile 'org.springframework:spring-web:4.1.0.RELEASE'
+	compile 'org.springframework:spring-aop:4.1.0.RELEASE'
+	compile 'org.springframework:spring-tx:4.1.0.RELEASE'
+	compile 'org.springframework:spring-jdbc:4.1.0.RELEASE'
+	compile 'org.springframework:spring-test:4.1.0.RELEASE'
+	compile 'org.springframework:spring-webmvc:4.1.0.RELEASE'
+	
+	compile 'org.quartz-scheduler:quartz:1.8.5'
+	
+	compile 'com.travelzen:tops-ibe-interface-client:1.4.0'
+}

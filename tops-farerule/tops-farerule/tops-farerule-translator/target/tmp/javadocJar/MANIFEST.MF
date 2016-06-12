@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Implementation-Title: tops-farerule-translator
+Implementation-Version: unspecified
+Built-By: yiming
+Built-JDK: 1.7.0_45
+Implementation-Timestamp: 2015-09-14T16:00:02+0800
+

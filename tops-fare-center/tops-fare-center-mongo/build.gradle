@@ -1,0 +1,8 @@
+dependencies {
+	compile project(':tops-fare-center-common')
+	
+	compile libraries.tops_rosetta_eterm_common
+	
+	compile libraries.mongo_java_driver
+	compile libraries.morphia
+}

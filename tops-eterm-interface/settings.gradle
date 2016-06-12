@@ -1,0 +1,4 @@
+include ':tz-eterm-interface-common'
+include ':tz-eterm-interface-service'
+include ':tz-eterm-interface-web'
+include ':tz-eterm-interface-client'

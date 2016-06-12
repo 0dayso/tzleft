@@ -1,0 +1,166 @@
+<PNRNO />
+<AIRLINEPNRNO />
+<SYSTEM />
+<TICKETS>
+    <TICKETINFO>
+        <TKTN>781-8516083842</TKTN>
+        <EXCHTKT />
+        <ET>ARL-D</ET>
+        <RECEIPTPNT />
+        <CONJTKT />
+        <TKTSTATUS>SUSPENDED</TKTSTATUS>
+        <ISSUEDBY>中国东方航空公司</ISSUEDBY>
+        <ISSUEDDATE>30NOV15</ISSUEDDATE>
+        <ER>不得签转改期退票 </ER>
+    </TICKETINFO>
+</TICKETS>
+<PASSENGERLIST>
+    <PASSENGER>
+        <NAME>朱滔</NAME>
+        <IDCARD>
+            <CARDTYPE>NI</CARDTYPE>
+            <CARDNUMBER>500240198704160000</CARDNUMBER>
+        </IDCARD>
+    </PASSENGER>
+</PASSENGERLIST>
+<SEGMENTS>
+    <SEGMENT>
+        <NORMAL>
+            <AIRLINE>LH</AIRLINE>
+            <FLIGHTNO>727</FLIGHTNO>
+            <DATE>13DEC</DATE>
+            <CLASS>M</CLASS>
+            <SEATSTATUS>OK</SEATSTATUS>
+            <SEGSTATUS>OPEN FOR USE</SEGSTATUS>
+            <STOPS>O</STOPS>
+            <LEGS>
+                <LEG>
+                    <ORI_TERMINAL>2 </ORI_TERMINAL>
+                    <DEST_TERMINAL>2 </DEST_TERMINAL>
+                    <ORIGIN>上海浦东</ORIGIN>
+                    <DEST>慕尼黑雷姆</DEST>
+                    <DEPTIME>2345</DEPTIME>
+                    <DEPDATE>13DEC</DEPDATE>
+                    <ARRTIME>0750+1</ARRTIME>
+                    <BAGGAGE>1PC</BAGGAGE>
+                    <FAREBASIS>MLRFBB</FAREBASIS>
+                    <NVA>13DEC6</NVA>
+                </LEG>
+            </LEGS>
+        </NORMAL>
+    </SEGMENT>
+    <SEGMENT>
+        <NORMAL>
+            <AIRLINE>LH</AIRLINE>
+            <FLIGHTNO>2060</FLIGHTNO>
+            <DATE>14DEC</DATE>
+            <CLASS>M</CLASS>
+            <SEATSTATUS>OK</SEATSTATUS>
+            <SEGSTATUS>OPEN FOR USE</SEGSTATUS>
+            <STOPS>X</STOPS>
+            <LEGS>
+                <LEG>
+                    <ORIGIN>慕尼黑雷姆</ORIGIN>
+                    <DEST>汉堡</DEST>
+                    <DEPTIME>0700</DEPTIME>
+                    <DEPDATE>14DEC</DEPDATE>
+                    <ARRTIME />
+                    <BAGGAGE>1PC</BAGGAGE>
+                    <FAREBASIS>MLRFBB</FAREBASIS>
+                    <NVA>13DEC6</NVA>
+                </LEG>
+            </LEGS>
+        </NORMAL>
+    </SEGMENT>
+    <SEGMENT>
+        <ARNK>
+            <DATE />
+            <ORIGIN>汉堡</ORIGIN>
+            <DEST>汉诺威</DEST>
+        </ARNK>
+    </SEGMENT>
+    <SEGMENT>
+        <NORMAL>
+            <AIRLINE>LH</AIRLINE>
+            <FLIGHTNO>2097</FLIGHTNO>
+            <DATE>15DEC</DATE>
+            <CLASS>U</CLASS>
+            <SEATSTATUS>OK</SEATSTATUS>
+            <SEGSTATUS>OPEN FOR USE</SEGSTATUS>
+            <STOPS>O</STOPS>
+            <LEGS>
+                <LEG>
+                    <ORIGIN>汉诺威</ORIGIN>
+                    <DEST>慕尼黑雷姆</DEST>
+                    <DEPTIME>1610</DEPTIME>
+                    <DEPDATE>15DEC</DEPDATE>
+                    <ARRTIME />
+                    <BAGGAGE>1PC</BAGGAGE>
+                    <FAREBASIS>ULRFBB</FAREBASIS>
+                    <NVA>13DEC6</NVA>
+                </LEG>
+            </LEGS>
+        </NORMAL>
+    </SEGMENT>
+</SEGMENTS>
+<AGENTINFO>
+    <IATANUMBER>08307736</IATANUMBER>
+    <NAME>上海不夜城旅行社有限公司</NAME>
+    <CONTACTINFO>
+        <ADDRESS>上海市长寿路699号3楼</ADDRESS>
+        <PHONE>021 62772009</PHONE>
+        <FAX>021 62776189</FAX>
+    </CONTACTINFO>
+</AGENTINFO>
+<FCS>
+    <FC>M 04DEC15CKG MU KMG260.00CNY260.00END </FC>
+</FCS>
+<FARES>
+    <FARE>
+        <TICKETFARE>
+            <AMOUNT>260.00</AMOUNT>
+            <CURRENCY>CNY</CURRENCY>
+        </TICKETFARE>
+        <TAX>
+            <AMOUNT>50.00</AMOUNT>
+            <CURRENCY>CNY</CURRENCY>
+        </TAX>
+        <TAX>
+            <AMOUNT>EXEMPTYQ</AMOUNT>
+            <CURRENCY />
+        </TAX>
+        <TOTALFARE>
+            <AMOUNT>310.00</AMOUNT>
+            <CURRENCY>CNY</CURRENCY>
+        </TOTALFARE>
+    </FARE>
+    <SFARE>
+        <AMOUNT>260.00</AMOUNT>
+        <CURRENCY>CNY</CURRENCY>
+    </SFARE>
+</FARES>
+<FPS>
+    <FP>
+        <PAYMENTTYPE>CC/VI6115XXXXXX0270</PAYMENTTYPE>
+        <INFO />
+    </FP>
+</FPS>
+<LANGUAGE>CN</LANGUAGE>
+<NOTICE>
+    <LINE>请您在航班起飞前2小时到达机场，或请根据所乘航空公司规定提前到达机场，凭购票时使用的有效身份证件到值机柜台按时办理乘机手续；</LINE>
+    <LINE>请您持有效身份证件、登机牌及报销凭证办理安全检查手续；</LINE>
+    <LINE>如果需要提供帮助，请联系购票代理人或所乘航空公司。</LINE>
+    <LINE>旅客可通过登陆网站http://www.travelsky.com、拨打服务热线电话
+        400-815-8888或发送短信JP至10669018验真电子客票相关信息(收费)
+    </LINE>
+    <LINE>为保障旅客权益，请登录承运航空公司网站认真阅读《旅客须知》及承运人的运输总条件内容。</LINE>
+</NOTICE>
+<ADVERT>
+    <LINE>1、发送JP到10669018（本条免费） 得到服务列表，根据提示回复选择相关的服务-电子客票验真或电子客票状态跟踪
+        （一旦机票状态发生任何改变，我们将第一时间短信通知您）
+    </LINE>
+    <LINE>2、发送YZ+有效身份证件号码或YZ+电子客票票号到10669018（每条一元）验明电子客票真伪</LINE>
+    <LINE>3、发送GZ+有效身份证件号码或GZ+电子客票票号到10669018（每条一元）获得电子客票全程状态跟踪（一旦机票状态
+        发生任何改变，我们将第一时间短信通知您）
+    </LINE>
+</ADVERT>

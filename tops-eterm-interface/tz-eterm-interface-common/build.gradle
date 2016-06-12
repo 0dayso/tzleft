@@ -1,0 +1,27 @@
+group = 'com.travelzen'
+version = "${versions.tz_eterm}"
+jar {
+    baseName = "tz-eterm-interface-common"
+}
+
+configurations {
+    compile.exclude module: "commons-logging"
+    compile.exclude module: "slf4j-log4j12"
+}
+
+
+dependencies {
+    compile('commons-pool:commons-pool:1.6')
+    compile('org.quartz-scheduler:quartz:1.8.5')
+    compile('org.apache.httpcomponents:httpclient:4.3.2')
+    compile('org.apache.httpcomponents:httpmime:4.3.2')
+    compile('org.javatuples:javatuples:1.2')
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs "${projectDir}/src/main/gen-java"
+        }
+    }
+}

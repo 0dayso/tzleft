@@ -1,0 +1,16 @@
+group = 'com.travelzen'
+version = "${versions.tops_farerule}"
+
+dependencies {
+	compile libraries.jcl_over_slf4j
+	compile libraries.log4j_over_slf4j
+	compile libraries.logback
+	
+	compile libraries.framework_config
+	compile libraries.framework_logger_core
+	compile libraries.framework_mongo_support
+	compile libraries.hibernate_validator
+	
+	compile libraries.tops_fare_proto
+	compile project(':tops-farerule-proto')
+}
